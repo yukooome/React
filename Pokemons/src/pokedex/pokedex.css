@@ -14,7 +14,7 @@ div.poke-place {
 
   align-items: center;
   justify-content: center;
-  background-image: url("assets/img/pokeballfull.avif"); 
+  background-image: url("/assets/img/pokeballfull.avif"); 
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@ div.poke-place {
   transition: transform 0.2s, box-shadow 0.2s;
   font-family: Arial, sans-serif;
 
-  background-image: url("assets/img/pokeball3.jpg"); 
+  background-image: url("/assets/img/pokeball3.jpg"); 
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
