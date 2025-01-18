@@ -4,3 +4,201 @@
   padding: 2rem;
   text-align: center;
 }
+
+
+/* Conteneur principal */
+.todo-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Formulaire de tâche */
+.todo-form {
+  width: 45%;
+  background-color: #ffffff; /* Fond blanc pour le formulaire */
+  padding: 20px;
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Ombre pour profondeur */
+}
+
+/* Titre du formulaire */
+.todo-form h2 {
+  text-align: center;
+  color: #4CAF50; /* Couleur verte */
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Labels */
+.todo-form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+  font-weight: bold;
+}
+
+/* Champs de texte */
+.todo-form input[type="text"],
+.todo-form textarea,
+.todo-form select {
+  width: 100%;
+  /* padding: 10px; */
+  margin-bottom: 20px;
+  border: 1px solid #ccc; /* Bordure grise claire */
+  border-radius: 5px; /* Coins arrondis */
+  font-size: 14px;
+  color: #333;
+  transition: border-color 0.3s; /* Transition pour l'effet focus */
+}
+
+/* Bouton d'ajout */
+.todo-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50; /* Vert */
+  color: white;
+  border: none;
+  border-radius: 5px; /* Coins arrondis */
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s; /* Transition pour le survol */
+}
+
+/* État au survol du bouton */
+.todo-form button:hover {
+  background-color: #45a049; /* Couleur légèrement plus foncée au survol */
+}
+
+/* Effet de focus sur les champs de texte */
+.todo-form input:focus,
+.todo-form textarea:focus,
+.todo-form select:focus {
+  border-color: #4CAF50; /* Changement de couleur de la bordure */
+  outline: none; /* Suppression de l'outline */
+}
+
+/* Liste des tâches */
+.task-list {
+  width: 45%;
+  background-color: #f9f9f9; /* Fond léger */
+  padding: 20px;
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre de la liste */
+.task-list h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Style des éléments de la liste */
+.task-list ul {
+  list-style-type: none; /* Supprime les puces */
+  padding-left: 0; /* Supprime le padding par défaut */
+  margin: 0; /* Supprime la marge par défaut */
+}
+
+.task-list li {
+  background-color: #ffffff; /* Fond blanc pour les tâches */
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd; /* Bordure grise */
+  border-radius: 5px; /* Coins arrondis */
+  display: flex;
+  flex-direction: column; /* Flex direction verticale */
+  justify-content: space-between;
+}
+
+/* État des tâches complétées */
+.task-list li.completed {
+  background-color: #e0e0e0e8; /* Couleur de fond gris */
+  opacity: 0.7; /* Légère opacité */
+}
+
+/* Header de la tâche */
+.task-header {
+  display: flex;
+  justify-content: space-between; /* Espace entre le nom et le statut */
+  align-items: center; /* Alignement vertical */
+}
+
+/* Texte de la tâche */
+.task-header span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Texte Urgent */
+.urgent {
+  color: red;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+/* Description de la tâche */
+/* Description de la tâche */
+.task-list li p {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #666;
+  max-height: 100px; /* Limite la hauteur de la description */
+  overflow-y: auto; /* Scroll vertical si trop long */
+  overflow-x: hidden; /* Cache le défilement horizontal */
+  padding: 5px; /* Espace intérieur */
+  border-radius: 4px; /* Coins arrondis */
+  /* background-color: rgb(12, 46, 111);  */
+  color: rgb(0, 0, 0); /* Couleur du texte pour le contraste */
+  width: 100%; /* Prend toute la largeur du conteneur */
+  box-sizing: border-box; /* Inclut le padding dans la largeur totale */
+}
+
+
+
+
+/* Boutons dans la liste des tâches */
+.task-buttons {
+  display: flex; /* Affichage flex */
+  justify-content: flex-end; /* Alignement à droite */
+  gap: 10px; /* Espace entre les boutons */
+  margin-top: 10px; /* Marge au-dessus des boutons */
+}
+
+/* Styles pour les boutons */
+.task-list button {
+  background-color: #007BFF; /* Couleur de fond bleue */
+  color: white; /* Couleur du texte */
+  border: none; /* Pas de bordure */
+  border-radius: 4px; /* Coins arrondis */
+  padding: 5px 10px; /* Espace intérieur */
+  cursor: pointer; /* Changement de curseur */
+  transition: background-color 0.3s; /* Transition pour le survol */
+}
+
+/* Couleur au survol des boutons */
+.task-list button:hover {
+  background-color: #ff0000; /* Couleur au survol */
+}
+
+/* État désactivé pour les boutons */
+.task-list button:disabled {
+  background-color: #ddd; /* Couleur pour les boutons désactivés */
+  cursor: not-allowed; /* Curseur pour les boutons désactivés */
+}
+
+/* Responsive : Affichage en colonne sur petits écrans */
+@media (max-width: 768px) {
+  .todo-container {
+    flex-direction: column;
+  }
+
+  .todo-form,
+  .task-list {
+    width: 100%; /* Prend 100% de la largeur */
+  }
+}
