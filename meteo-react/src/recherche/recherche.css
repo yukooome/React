@@ -1,0 +1,29 @@
+/* Recherche.css */
+form {
+    display: flex; /* Utiliser flexbox pour aligner les éléments */
+    gap: 10px; /* Espace entre les éléments */
+    align-items: center; /* Centrer verticalement */
+}
+
+input[type="text"] {
+    padding: 10px; /* Espacement intérieur */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px; /* Taille de police */
+    flex-grow: 1; /* Prendre toute la largeur disponible */
+}
+
+input[type="submit"] {
+    padding: 10px 15px; /* Espacement intérieur */
+    border: none; /* Supprimer la bordure par défaut */
+    border-radius: 5px; /* Coins arrondis */
+    background-color: #007bff; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    font-size: 16px; /* Taille de police */
+    cursor: pointer; /* Pointeur sur le survol */
+    transition: background-color 0.3s; /* Effet de transition pour le survol */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Couleur de fond sur survol */
+}

@@ -1,0 +1,79 @@
+/* Meteo.css */
+
+body {
+    font-family: 'Arial', sans-serif; /* Typographie par défaut */
+    background-color: #eaeaea; /* Couleur de fond pour un contraste doux */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Hauteur de la vue pour centrer verticalement */
+    display: flex; /* Utilisation de flexbox pour centrer */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
+
+.meteo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Permet aux cartes de se réorganiser sur plusieurs lignes */
+    margin: 20px;
+}
+
+.weather-card {
+    background-color: #ffffff; /* Un fond plus clair pour contraster avec le conteneur */
+    border: 1px solid #ddd; /* Une bordure plus douce */
+    border-radius: 12px; /* Coins arrondis plus prononcés */
+    padding: 20px;
+    width: 300px;
+    max-width: 90%; /* Limite la largeur pour les petits écrans */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Ombre plus marquée */
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s; /* Ajout de la transition d'ombre */
+}
+
+.weather-card:hover {
+    transform: translateY(-5px); /* Légère translation vers le haut pour l'effet de survol */
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2); /* Ombre plus marquée au survol */
+}
+
+h2 {
+    color: #2c3e50; /* Une couleur sombre et élégante pour les titres */
+    margin: 10px 0;
+    font-size: 1.5em; /* Taille de police responsive */
+}
+
+.temperature {
+    font-size: 36px; /* Taille de police plus grande pour la température */
+    color: #e74c3c; /* Couleur rouge pour la température */
+    font-weight: bold; /* Gras pour la température */
+}
+
+.description {
+    font-size: 20px;
+    color: #34495e; /* Couleur bleu foncé pour une meilleure lisibilité */
+    margin: 5px 0; /* Ajout de marges */
+}
+
+.additional-info {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #7f8c8d; /* Couleur gris pour les infos additionnelles */
+}
+
+.additional-info p {
+    margin: 5px 0;
+}
+
+.loading {
+    text-align: center;
+    font-size: 24px; /* Taille de police augmentée pour le texte de chargement */
+    color: #3498db; /* Couleur bleue pour le chargement */
+    font-weight: bold; /* Gras pour le chargement */
+}
+
+.error {
+    text-align: center;
+    font-size: 24px; /* Taille de police augmentée pour le texte d'erreur */
+    color: #e74c3c; /* Couleur rouge pour les erreurs */
+    font-weight: bold; /* Gras pour les erreurs */
+}
