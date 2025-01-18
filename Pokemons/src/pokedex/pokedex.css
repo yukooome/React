@@ -1,4 +1,3 @@
-
 ul {
   list-style-type: none;
   padding: 0;
@@ -11,12 +10,11 @@ li {
 div.poke-place {
   display: flex;
   flex-direction: column;
-
   align-items: center;
   justify-content: center;
-  background-image: url("/assets/img/pokeballfull.avif"); 
-  background-size: cover; 
-  background-position: center; 
+  background-image: url("/assets/img/pokeballfull.avif");
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   border: 2px solid #ffffff;
   width: 100%;
@@ -40,16 +38,13 @@ div.poke-place {
   margin: 10px;
   width: 100%;
   height: 100%;
- 
   transition: transform 0.2s, box-shadow 0.2s;
   font-family: Arial, sans-serif;
-
-  background-image: url("/assets/img/pokeball3.jpg"); 
-  background-size: cover; 
-  background-position: center; 
+  background-image: url("/assets/img/pokeball3.jpg");
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
-
 
 .pokemon-card:hover {
   transform: scale(1.05);
@@ -97,3 +92,69 @@ div.poke-place {
   height: 100%;
 }
 
+/* Responsiveness for screens smaller than 1200px */
+@media screen and (max-width: 1200px) {
+  .pokemon-card {
+    width: 90%;
+  }
+}
+
+/* Adding responsiveness for screens smaller than 768px (tablets) */
+@media screen and (max-width: 768px) {
+  .poke-container {
+    flex-direction: column;
+  }
+
+  .pokemon-card {
+    width: 100%; /* Full-width for smaller screens */
+    margin: 5px;
+  }
+
+  .c-1, .c-2 {
+    width: 100%; /* Stack columns vertically */
+  }
+
+  .pokemon-image {
+    width: 150px;
+    height: auto;
+  }
+
+  .pokemon-card strong {
+    font-size: 1.2em;
+  }
+
+  div.poke-place {
+    background-image: none;
+  }
+}
+
+/* Mobile responsiveness for screens smaller than 480px */
+@media screen and (max-width: 480px) {
+  .pokemon-card {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    flex-direction: column;
+  }
+
+  .c-1, .c-2 {
+    width: 100%;
+  }
+
+  .pokemon-image {
+    width: 100px;
+    height: auto;
+  }
+
+  .pokemon-card strong {
+    font-size: 1.1em;
+  }
+
+  div.poke-place {
+    background-image: none;
+  }
+  
+  .pokemon-card {
+    background-image: none;
+  }
+}
