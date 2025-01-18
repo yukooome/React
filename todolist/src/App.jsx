@@ -1,5 +1,5 @@
 import './App.css';
-import Todolist from './components/todolist';  // Vérifiez que le chemin est correct
+import Todolist from './components/todolist';  
 
 function App() {
   return (
