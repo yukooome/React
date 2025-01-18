@@ -1,0 +1,98 @@
+/* Style global du tableau */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;  /* Taille de police légèrement réduite pour une apparence plus professionnelle */
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Ombre subtile */
+    border-radius: 8px;  /* Bords arrondis pour l'ensemble du tableau */
+    overflow: hidden;
+    background-color: #ffffff;  /* Fond blanc pour un contraste clair */
+}
+
+/* Style des cellules */
+th, td {
+    padding: 12px 16px;  /* Espacement amélioré pour une meilleure lisibilité */
+    border-bottom: 1px solid #e0e0e0;  /* Ligne de séparation subtile */
+}
+
+/* Style des en-têtes de tableau */
+th {
+    background-color: #004d40;  /* Couleur sombre et élégante pour les en-têtes */
+    color: #ffffff;  /* Texte blanc pour un bon contraste */
+    font-weight: bold;
+    text-transform: uppercase;  /* Mettre les titres en majuscules */
+    letter-spacing: 0.1em;  /* Espacement des lettres légèrement augmenté */
+}
+
+/* Alternance de couleurs pour les lignes */
+tr:nth-child(even) {
+    background-color: #f5f5f5;  /* Couleur légèrement grise pour les lignes paires */
+}
+
+/* Survol des lignes */
+tr:hover {
+    background-color: #a1b6af66;  /* Couleur douce et professionnelle pour le survol */
+    transition: background-color 0.3s ease;  /* Effet de transition en douceur */
+}
+
+/* Style des produits en promotion (prix mis en avant avec une couleur différente) */
+.promo {
+    font-weight: bold;  /* Mettre en avant les produits en promotion */
+}
+
+/* Style pour les produits sans promotion */
+.normal {
+    color: #333333;  /* Gris foncé pour une lecture facile */
+}
+
+/* Style spécifique pour le prix */
+td.price {
+    text-align: right;
+}
+
+/* Style spécifique pour les prix en promotion */
+td.promoPrice {
+    color: #d32f2f;  /* Rouge vif pour attirer l'attention sur les prix en promotion */
+    font-weight: bold;
+}
+
+/* Ajout de bordures arrondies pour chaque cellule de l'en-tête */
+th:first-child {
+    border-top-left-radius: 8px;
+}
+th:last-child {
+    border-top-right-radius: 8px;
+}
+
+/* Style pour l'astérisque de promotion */
+.promoMark {
+    color: #d32f2f;  /* Couleur rouge vif pour l'astérisque */
+    font-weight: bold;
+    margin-left: 5px;  /* Espacement entre le prix et l'astérisque */
+    position: relative;  /* Positionner l'élément pour le tooltip */
+    cursor: pointer;  /* Changer le curseur pour indiquer qu'il y a une info-bulle */
+}
+
+/* Style pour le tooltip */
+.promoMark::after {
+    content: 'Promotion';  /* Texte du tooltip */
+    position: absolute;
+    bottom: 100%;  /* Positionner le tooltip au-dessus de l'astérisque */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333333;  /* Fond sombre pour le tooltip */
+    color: #ffffff;  /* Couleur du texte du tooltip */
+    padding: 5px 10px;  /* Espacement à l'intérieur du tooltip */
+    border-radius: 4px;
+    white-space: nowrap;  /* Empêche le texte de se casser */
+    opacity: 0;  /* Masquer le tooltip par défaut */
+    transition: opacity 0.3s;  /* Ajouter une transition pour l'apparition */
+    font-size: 12px;  /* Taille de la police du tooltip */
+}
+
+/* Afficher le tooltip au survol */
+.promoMark:hover::after {
+    opacity: 1;  /* Rendre le tooltip visible */
+}
