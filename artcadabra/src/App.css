@@ -327,10 +327,10 @@ p {
 .modal-content {
   display: flex;
   background-color: #ffffff;
-  padding: 30px;
+  padding: 20px; /* Réduction du padding pour moins de hauteur */
   border-radius: 10px;
-  max-width: 80%;
-  width: 70%;
+  max-width: 60%; /* Diminution de la largeur */
+  width: 50%; /* Diminution de la largeur pour la rendre plus compacte */
   text-align: left;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
   animation: scaleUp 0.3s ease;
@@ -340,7 +340,7 @@ p {
 .modal-image {
   width: 100%;
   height: auto;
-  max-width: 550px;
+  max-width: 450px; /* Réduction de la taille de l'image */
   margin-right: 20px;
   border-radius: 10px;
 }
