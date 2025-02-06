@@ -270,6 +270,7 @@ const images = {
       // { src: './assets/perso6.jpg', title: 'Personnage Mains-Bras 1', description: 'Description des étapes pour personnage mains-bras.' },
       { src: './assets/perso7.jpg', title: 'Personnage Mains-Bras 1', description: 'Description des étapes pour personnage mains-bras.' },
       { src: './assets/perso9.jpg', title: 'Personnage Mains-Bras 1', description: 'Description des étapes pour personnage mains-bras.' },
+      { src: './assets/perso11.jpg', title: 'Personnage Mains-Bras 1', description: 'Description des étapes pour personnage mains-bras.' },
       { src: './assets/perso10.jpg', title: 'Personnage Mains-Bras 2', description: 'Description des étapes pour personnage mains-bras.' }
     ]
   },
