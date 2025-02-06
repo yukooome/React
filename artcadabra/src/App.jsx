@@ -6,7 +6,8 @@ const categories = [
   { name: 'Anatomie', subcategories: ['Plan frontal', 'Plan sagittal', 'Plan transversal'] },
   { name: 'Position', subcategories: ['Plan frontal', 'Plan sagittal', 'Plan transversal'] },
   { name: 'Membre', subcategories: ['Tête', 'Mains-Bras', 'Torse-Bassin', 'Pieds-Jambes'] },
-  { name: 'Personnage', subcategories: ['Couleur', 'Noir et blanc'] }
+  { name: 'Personnage', subcategories: ['Couleur', 'Noir et blanc'] },
+  { name: 'Artiste', subcategories: ['Artiste1', 'Artiste2'] }
 ];
 
 // Objet unique qui contient les images pour toutes les catégories
@@ -71,6 +72,15 @@ const images = {
       { src: './assets/perso7.jpg', title: 'Personnage Mains-Bras 1', description: 'Description des étapes pour personnage mains-bras.' },
       { src: './assets/perso9.jpg', title: 'Personnage Mains-Bras 1', description: 'Description des étapes pour personnage mains-bras.' },
       { src: './assets/perso10.jpg', title: 'Personnage Mains-Bras 2', description: 'Description des étapes pour personnage mains-bras.' }
+    ]
+  },
+
+  Artiste: {
+    'Artiste1': [
+      { src: '', title: 'Artiste1', description: 'Description des étapes pour personnage pieds-jambes.' }
+    ],
+    'Artiste2': [
+      { src: '', title: 'Artiste2', description: 'Description des étapes pour personnage mains-bras.' }
     ]
   }
 };
