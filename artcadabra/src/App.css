@@ -85,17 +85,7 @@ p{
 }
 
 
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 
 
@@ -142,4 +132,35 @@ p{
   color: white;
   border: none;
   border-radius: 5px;
+}
+
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .modal-content {
+    flex-direction: column; /* Passe en colonne sur les écrans plus petits */
+    width: 90%; /* Ajuste la largeur */
+  }
+
+  .modal-image {
+    margin-right: 0;
+    margin-bottom: 20px; /* Espace sous l'image en vue mobile */
+    max-width: 100%; /* Image prend toute la largeur sur petits écrans */
+  }
+
+  .close-modal {
+    align-self: flex-end; /* Bouton de fermeture aligné à droite */
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-content {
+    width: 95%; /* Utilise presque toute la largeur sur très petits écrans */
+  }
+
+  .close-modal {
+    width: 100%; /* Le bouton prend toute la largeur sur très petits écrans */
+  }
 }
