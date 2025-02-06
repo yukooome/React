@@ -327,10 +327,10 @@ p {
 .modal-content {
   display: flex;
   background-color: #ffffff;
-  padding: 20px; /* Réduction du padding pour moins de hauteur */
+  padding: 30px;
   border-radius: 10px;
-  max-width: 60%; /* Diminution de la largeur */
-  width: 50%; /* Diminution de la largeur pour la rendre plus compacte */
+  max-width: 80%;
+  width: 70%;
   text-align: left;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
   animation: scaleUp 0.3s ease;
@@ -340,7 +340,7 @@ p {
 .modal-image {
   width: 100%;
   height: auto;
-  max-width: 450px; /* Réduction de la taille de l'image */
+  max-width: 550px;
   margin-right: 20px;
   border-radius: 10px;
 }
@@ -404,7 +404,7 @@ p {
 @media (max-width: 768px) {
   .modal-content {
     flex-direction: column;
-    width: 90%;
+    width: 65%;
   }
 
   .modal-image {
@@ -420,7 +420,7 @@ p {
 
 @media (max-width: 480px) {
   .modal-content {
-    width: 95%;
+    width: 60%;
   }
 
   .close-modal {
