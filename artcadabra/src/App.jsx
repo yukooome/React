@@ -13,16 +13,14 @@ const categories = [
 const images = {
   Anatomie: {
     'Plan frontal': [
-      { src: 'anatomie_image1.jpg', title: 'Titre 1', description: 'Description des étapes pour anatomie plan frontal.' },
-      { src: 'anatomie_image2.jpg', title: 'Titre 2', description: 'Description des étapes pour anatomie plan frontal.' }
+      { src: 'anatomie_image1.jpg', title: 'Titre 1', description: 'Description des étapes pour anatomie plan frontal.' }
+
     ],
     'Plan sagittal': [
-      { src: 'anatomie_image3.jpg', title: 'Titre 3', description: 'Description des étapes pour anatomie plan sagittal.' },
-      { src: 'anatomie_image4.jpg', title: 'Titre 4', description: 'Description des étapes pour anatomie plan sagittal.' }
+      { src: 'anatomie_image3.jpg', title: 'Titre 3', description: 'Description des étapes pour anatomie plan sagittal.' }
     ],
     'Plan transversal': [
-      { src: 'anatomie_image5.jpg', title: 'Titre 5', description: 'Description des étapes pour anatomie plan transversal.' },
-      { src: 'anatomie_image6.jpg', title: 'Titre 6', description: 'Description des étapes pour anatomie plan transversal.' }
+      { src: 'anatomie_image5.jpg', title: 'Titre 5', description: 'Description des étapes pour anatomie plan transversal.' }
     ]
   },
   Position: {
@@ -53,18 +51,15 @@ const images = {
       
     ],
     'Torse-Bassin': [
-      { src: './assets/torse1.jpg', title: 'Torse-Bassin 1', description: 'Description des étapes pour torse-bassin.' },
-      // { src: 'membre_image6.jpg', title: 'Torse-Bassin 2', description: 'Description des étapes pour torse-bassin.' }
+      { src: './assets/torse1.jpg', title: 'Torse-Bassin 1', description: 'Description des étapes pour torse-bassin.' }
     ],
     'Tête': [
-      { src: 'membre_image7.jpg', title: 'Tête 1', description: 'Description des étapes pour la tête.' },
-      { src: 'membre_image8.jpg', title: 'Tête 2', description: 'Description des étapes pour la tête.' }
+      { src: 'membre_image7.jpg', title: 'Tête 1', description: 'Description des étapes pour la tête.' }
     ]
   },
   Personnage: {
     'Couleur': [
-      { src: './assets/perso8.jpg', title: 'Personnage Pieds-Jambes 1', description: 'Description des étapes pour personnage pieds-jambes.' },
-      { src: 'personnage_image2.jpg', title: 'Personnage Pieds-Jambes 2', description: 'Description des étapes pour personnage pieds-jambes.' }
+      { src: './assets/perso8.jpg', title: 'Personnage Pieds-Jambes 1', description: 'Description des étapes pour personnage pieds-jambes.' }
     ],
     'Noir et blanc': [
       { src: './assets/perso1.jpg', title: 'Personnage Mains-Bras 1', description: 'Description des étapes pour personnage mains-bras.' },
@@ -77,14 +72,6 @@ const images = {
       { src: './assets/perso9.jpg', title: 'Personnage Mains-Bras 1', description: 'Description des étapes pour personnage mains-bras.' },
       { src: './assets/perso10.jpg', title: 'Personnage Mains-Bras 2', description: 'Description des étapes pour personnage mains-bras.' }
     ]
-    // 'Torse-Bassin': [
-    //   { src: 'personnage_image5.jpg', title: 'Personnage Torse-Bassin 1', description: 'Description des étapes pour personnage torse-bassin.' },
-    //   { src: 'personnage_image6.jpg', title: 'Personnage Torse-Bassin 2', description: 'Description des étapes pour personnage torse-bassin.' }
-    // ],
-    // 'Tête': [
-    //   { src: 'personnage_image7.jpg', title: 'Personnage Tête 1', description: 'Description des étapes pour personnage tête.' },
-    //   { src: 'personnage_image8.jpg', title: 'Personnage Tête 2', description: 'Description des étapes pour personnage tête.' }
-    // ]
   }
 };
 
