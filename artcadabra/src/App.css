@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
   margin: 0;
@@ -85,12 +85,6 @@ p{
 }
 
 
-
-
-
-
-
-/* Modal styles */
 .modal {
   position: fixed;
   top: 0;
@@ -116,12 +110,12 @@ p{
 .modal-image {
   width: 100%;
   height: auto;
-  max-width: 600px; /* Limite la taille de l'image */
-  margin-right: 20px; /* Espace entre l'image et les informations */
+  max-width: 600px; 
+  margin-right: 20px; 
 }
 
 .modal-info {
-  flex: 1; /* Permet à la zone d'informations de prendre toute la largeur restante */
+  flex: 1; 
 }
 
 .close-modal {
@@ -137,30 +131,299 @@ p{
 
 
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .modal-content {
-    flex-direction: column; /* Passe en colonne sur les écrans plus petits */
-    width: 90%; /* Ajuste la largeur */
+    flex-direction: column;
+    width: 90%; 
   }
 
   .modal-image {
     margin-right: 0;
-    margin-bottom: 20px; /* Espace sous l'image en vue mobile */
-    max-width: 100%; /* Image prend toute la largeur sur petits écrans */
+    margin-bottom: 20px; 
+    max-width: 100%; 
   }
 
   .close-modal {
-    align-self: flex-end; /* Bouton de fermeture aligné à droite */
+    align-self: flex-end; 
   }
 }
 
 @media (max-width: 480px) {
   .modal-content {
-    width: 95%; /* Utilise presque toute la largeur sur très petits écrans */
+    width: 95%; 
   }
 
   .close-modal {
-    width: 100%; /* Le bouton prend toute la largeur sur très petits écrans */
+    width: 100%;
+  }
+} */
+
+
+
+
+
+/* Un peu plus ux - deuxième version */
+/* Corps de la page */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9fafb; /* Couleur de fond plus claire */
+  margin: 0;
+  padding: 0;
+  color: #333; /* Texte plus sombre pour un meilleur contraste */
+  line-height: 1.6;
+}
+
+/* Conteneur principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Titre principal */
+h1 {
+  font-size: 36px;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* Paragraphe descriptif */
+p {
+  font-size: 18px;
+  color: #7f8c8d;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Grille des catégories */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+/* Carte de catégorie */
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  font-size: 24px;
+  color: #2c3e50;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.card:hover h2 {
+  color: #3498db;
+}
+
+/* Carte active (mise en surbrillance) */
+.active {
+  border: 2px solid #3498db;
+}
+
+/* Grille des sous-catégories */
+.subcategory-grid {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+/* Bouton des sous-catégories */
+.subcategory-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.subcategory-button:hover {
+  background-color: #29b948;
+  transform: translateY(-5px);
+}
+
+/* Grille des images */
+.image-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Élément d'image */
+.image-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.image-item:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Image dans l'élément */
+.image-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+/* Overlay d'info au survol de l'image */
+.info-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-item:hover .info-overlay {
+  opacity: 1;
+}
+
+/* Modale */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Fond plus sombre pour l'overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease;
+}
+
+/* Contenu de la modale */
+.modal-content {
+  display: flex;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 80%;
+  width: 70%;
+  text-align: left;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  animation: scaleUp 0.3s ease;
+}
+
+/* Image dans la modale */
+.modal-image {
+  width: 100%;
+  height: auto;
+  max-width: 550px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+/* Informations dans la modale */
+.modal-info {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+}
+
+.modal-info h3 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.modal-info p {
+  font-size: 18px;
+  color: #7f8c8d;
+}
+
+/* Bouton de fermeture de la modale */
+.close-modal {
+  margin-top: 20px;
+  padding: 12px 25px;
+  cursor: pointer;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.close-modal:hover {
+  background-color: #c0392b;
+  transform: translateY(-3px);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* Responsivité */
+@media (max-width: 768px) {
+  .modal-content {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .modal-image {
+    margin-right: 0;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+
+  .close-modal {
+    align-self: flex-end;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-content {
+    width: 95%;
+  }
+
+  .close-modal {
+    width: 100%;
   }
 }
