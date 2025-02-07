@@ -265,6 +265,8 @@ const images = {
     'Tête': [
       { src: './assets/tete1.jpg', title: 'Mains-Bras 1', description: 'Description des étapes pour mains-bras.' },
       { src: './assets/tete2.jpg', title: 'Mains-Bras 1', description: 'Description des étapes pour mains-bras.' },
+      { src: './assets/tete3.jpg', title: 'Mains-Bras 1', description: 'Description des étapes pour mains-bras.' },
+      { src: './assets/tete4.jpg', title: 'Mains-Bras 1', description: 'Description des étapes pour mains-bras.' },
     ]
   },
   Personnage: {
