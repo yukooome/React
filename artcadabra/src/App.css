@@ -342,23 +342,25 @@ p {
   height: auto;
   max-width: 550px; 
   max-height: 80vh;
-  margin-right: 10px; /* Réduire l'espace à droite de l'image */
+  margin-right: 10px;
   border-radius: 10px;
-  object-fit: contain; /* Maintient les proportions de l'image sans la déformer */
-  margin-bottom: 10px; /* Réduire l'espace sous l'image */
+  object-fit: contain; 
+  margin-bottom: 10px; 
 }
 
-/* Informations dans la modale */
 .modal-info {
   flex: 1;
   padding: 20px;
   text-align: left;
+  max-height: 60vh; 
+  overflow-y: auto;
 }
+
 
 .modal-info h3 {
   font-size: 26px;
   color: #333;
-  margin-bottom: 5px; /* Réduire l'espace sous le titre */
+  margin-bottom: 5px;
 }
 
 .modal-info p {
@@ -366,7 +368,7 @@ p {
   color: #7f8c8d;
 }
 
-/* Bouton de fermeture de la modale */
+
 .close-modal {
   margin-top: 20px;
   padding: 12px 25px;

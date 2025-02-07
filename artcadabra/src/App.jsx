@@ -213,11 +213,16 @@ const categories = [
 const images = {
   Anatomie: {
     'Plan frontal': [
-      { src: 'anatomie_image1.jpg', title: 'Titre 1', description: 'Description des étapes pour anatomie plan frontal.' }
+      { 
+        "src": "./assets/crane.jpg", 
+        "title": "Crâne", 
+        "description": "Trace un grand cercle en haut de ta feuille pour représenter la partie supérieure du crâne. Sous le cercle, dessine une forme allongée comme un trapèze avec des coins arrondis pour former la mâchoire. Trace une ligne verticale au centre du crâne, puis deux lignes horizontales : une pour les yeux (au milieu du cercle) et une autre pour la bouche (plus bas). Sur la ligne des yeux, dessine deux grands ovales vides pour les orbites de chaque côté de la ligne verticale. Dessine une forme triangulaire ou en goutte inversée sous les orbites pour représenter le trou du nez. Sur la ligne de la bouche, dessine un sourire courbé avec des petits rectangles pour les dents, en haut et en bas. Ajoute des traits pour définir les pommettes et affine la mâchoire en ajoutant des angles sur les côtés. Ajoute des fissures et des ombrages autour des orbites et de la mâchoire pour rendre le crâne plus réaliste. Efface les lignes de guidage, repasse les contours et ajoute des ombres pour donner de la profondeur. Bravo, ton crâne est terminé !" 
+      }
+      
 
     ],
     'Plan sagittal': [
-      { src: 'anatomie_image3.jpg', title: 'Titre 3', description: 'Description des étapes pour anatomie plan sagittal.' }
+      { src: './assets/squelette-axial.jpg', title: 'Titre 3', description: 'Description des étapes pour anatomie plan sagittal.' }, 
     ],
     'Plan transversal': [
       { src: 'anatomie_image5.jpg', title: 'Titre 5', description: 'Description des étapes pour anatomie plan transversal.' }
@@ -249,13 +254,17 @@ const images = {
       { src: './assets/main2.jpg', title: 'Mains-Bras 2', description: 'Description des étapes pour mains-bras.' },
       { src: './assets/main3.jpg', title: 'Mains-Bras 1', description: 'Description des étapes pour mains-bras.' },
       { src: './assets/main4.jpg', title: 'Mains-Bras 1', description: 'Description des étapes pour mains-bras.' },
+
+      { src: './assets/bras1.jpg', title: 'Mains-Bras 1', description: 'Description des étapes pour mains-bras.' },
+      { src: './assets/bras2.jpg', title: 'Mains-Bras 1', description: 'Description des étapes pour mains-bras.' },
       
     ],
     'Torse-Bassin': [
       { src: './assets/torse1.jpg', title: 'Torse-Bassin 1', description: 'Description des étapes pour torse-bassin.' }
     ],
     'Tête': [
-      { src: 'membre_image7.jpg', title: 'Tête 1', description: 'Description des étapes pour la tête.' }
+      { src: './assets/tete1.jpg', title: 'Mains-Bras 1', description: 'Description des étapes pour mains-bras.' },
+      { src: './assets/tete2.jpg', title: 'Mains-Bras 1', description: 'Description des étapes pour mains-bras.' },
     ]
   },
   Personnage: {
