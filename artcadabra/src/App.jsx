@@ -407,26 +407,27 @@ const App = () => {
       )}
 
       {/* Modale pour afficher l'image sélectionnée */}
-      {selectedImage && (  
-        // Si une image est sélectionnée, on affiche la modale.
-        <div className="modal">  
-        {/* Conteneur pour la modale. */}
-          <div className="modal-content">  
-            {/* Contenu de la modale. */}
-            <img src={selectedImage.src} alt={selectedImage.title} className="modal-image" />  
-            {/* Affiche l'image dans la modale. */}
-            <div className="modal-info">  
-              {/* Conteneur pour les informations sur l'image. */}
-              <h3>{selectedImage.title}</h3>  
-              {/* Affiche le titre de l'image. */}
-              <p>{selectedImage.description}</p>  
-              {/* Affiche la description de l'image. */}
-              <button className="close-modal" onClick={closeModal}>Fermer</button>  
-              {/* Bouton pour fermer la modale. */}
-            </div>
-          </div>
-        </div>
-      )}
+{selectedImage && (  
+  // Si une image est sélectionnée, on affiche la modale.
+  <div className="modal">  
+    {/* Conteneur pour la modale. */}
+    <div className="modal-content">  
+      {/* Contenu de la modale. */}
+      <img src={selectedImage.src} alt={selectedImage.title} className="modal-image" />  
+      {/* Affiche l'image dans la modale. */}
+      <div className="modal-info">  
+        {/* Conteneur pour les informations sur l'image. */}
+        <h3>{selectedImage.title}</h3>  
+        {/* Affiche le titre de l'image. */}
+        <p>{selectedImage.description}</p>  
+        {/* Affiche la description de l'image. */}
+      </div>
+      <button className="close-modal" onClick={closeModal}>×</button>  
+      {/* Croisillon pour fermer la modale */}
+    </div>
+  </div>
+)}
+
     </div>
   );
 };
