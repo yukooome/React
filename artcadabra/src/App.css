@@ -171,7 +171,11 @@ body {
   padding: 0;
   color: #333; 
   line-height: 1.6;
+  height: 100vh; /* Utilise 100% de la hauteur de la fenêtre */
+  display: flex;
+  flex-direction: column;
 }
+
 
 /* Conteneur principal */
 .container {
