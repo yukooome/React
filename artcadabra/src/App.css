@@ -308,6 +308,9 @@ p {
   opacity: 1;
 }
 
+
+
+
 /* Modale */
 .modal {
   position: fixed;
@@ -342,10 +345,10 @@ p {
   height: auto;
   max-width: 550px; 
   max-height: 80vh;
-  margin-right: 10px;
+  /* margin-right: 10px; */
   border-radius: 10px;
   object-fit: contain; 
-  margin-bottom: 10px; 
+  /* margin-bottom: 10px;  */
 }
 
 .modal-info {
@@ -366,6 +369,7 @@ p {
 .modal-info p {
   font-size: 18px;
   color: #7f8c8d;
+  overflow-y: auto;
 }
 
 
