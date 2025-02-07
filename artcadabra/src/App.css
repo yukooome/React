@@ -357,7 +357,9 @@ p {
 
 .modal-info {
   flex: 1;
-  padding: 20px;
+  /* padding: 20px; */
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: left;
   max-height: 60vh; 
   overflow-y: auto;
@@ -450,7 +452,8 @@ p {
 
   .modal-info {
     flex: 1;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: left;
     max-height: 50vh; 
     overflow-y: auto; 
@@ -472,15 +475,18 @@ p {
   }
 
   .modal-image {
-    margin-right: 0;
-    margin-bottom: 10px; /* Réduire l'espace sous l'image sur les petits écrans */
-    max-width: 100%;
+    display: block; /* Assure que l'image est centrée */
+    margin: 0 auto;  /* Centre l'image horizontalement */
+    margin-bottom: 10px;
+    max-width: 80%;   /* Réduit la taille de l'image sur les petits écrans */
+    height: auto;
+    object-fit: contain;
   }
 
   .close-modal {
-    top: 10px;  /* Gardez la croix en haut, mais ajustez si nécessaire */
+    top: 10px;  
     right: 10px;
-    align-self: flex-start;  /* Alignez la croix à gauche si nécessaire sur petits écrans */
+    align-self: flex-start;
   }
 }
 
@@ -492,13 +498,16 @@ p {
   }
 
   .modal-image {
+    display: block;  /* Assure que l'image est centrée */
+    margin: 0 auto;
     max-width: 100%;
+    height: auto;
   }
 
   .close-modal {
-    top: 5px;  /* Ajustez encore plus si nécessaire pour les petits écrans */
+    top: 5px;
     right: 5px;
-    width: 40px; /* Réduisez la taille de la croix pour petits écrans */
+    width: 40px;
     height: 40px;
   }
 }
