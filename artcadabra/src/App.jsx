@@ -234,7 +234,8 @@ const images = {
       { src: './assets/position2.jpg', title: 'Position Frontale 1', description: 'Description des étapes pour position plan frontal.' },
       { src: './assets/position6.jpg', title: 'Position Frontale 1', description: 'Description des étapes pour position plan frontal.' },
       { src: './assets/position7.jpg', title: 'Position Frontale 2', description: 'Description des étapes pour position plan frontal.' },
-      { src: './assets/position8.jpg', title: 'Position Frontale 2', description: 'Description des étapes pour position plan frontal.' }
+      { src: './assets/position8.jpg', title: 'Position Frontale 2', description: 'Description des étapes pour position plan frontal.' },
+      { src: './assets/position9.jpg', title: 'Position Frontale 2', description: 'Description des étapes pour position plan frontal.' },
     ],
     'Plan sagittal': [
       { src: './assets/position4.jpg', title: 'Position Sagittale 1', description: 'Description des étapes pour position plan sagittal.' },
