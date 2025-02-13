@@ -1,0 +1,78 @@
+/* Navbar.css */
+.navbar {
+    background-color: #1a1a1a; /* Couleur de fond assortie avec l'arrière-plan de l'application */
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .navbar-logo {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .navbar-logo .logo {
+    font-size: 24px;
+    color: #f1f1f1; /* Couleur de texte assortie au style de l'app */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-logo .logo span {
+    color: #ff6347; /* Couleur dynamique pour l'icône */
+  }
+  
+  .navbar-logo .logo:hover {
+    color: #ff6347; /* Change la couleur lors du survol */
+  }
+  
+  .navbar-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin: 0;
+  }
+  
+  .navbar-links a {
+    color: #f1f1f1; /* Assure que les liens sont bien visibles */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    background-color: #444; /* Couleur de survol pour correspondre au style de l'app */
+    color: #fff;
+    transform: scale(1.05); /* Effet de zoom au survol */
+  }
+  
+  /* Option pour mobile */
+  @media (max-width: 768px) {
+    .navbar-links {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .navbar-logo .logo {
+      font-size: 20px;
+    }
+  
+    .navbar-links a {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  }
+  

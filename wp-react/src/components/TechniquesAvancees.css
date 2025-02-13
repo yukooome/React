@@ -1,0 +1,256 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
+
+/* Main Blog Container */
+.app-teach-advanced {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+}
+
+/* Hero Section */
+.hero-section-advanced {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+.hero-section-advanced h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.intro-text-advanced {
+    font-size: 1.2rem;
+    color: #f4f4f4;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Main Content Section */
+.advanced-techniques-section {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Section Title */
+.advanced-techniques-section h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+/* Paragraph */
+.advanced-techniques-section p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+/* List of topics */
+.advanced-techniques-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.advanced-techniques-section ul li {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.advanced-techniques-section ul li::before {
+    content: "•";
+    color: #2575fc;
+    margin-right: 10px;
+}
+
+/* Tip Section */
+.advanced-tips {
+    background-color: #fafafa;
+    padding: 20px;
+    border-left: 5px solid #2575fc;
+    margin-top: 30px;
+    font-size: 1.1rem;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Gallery Section for Visuals */
+.gallery-advanced {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.gallery-advanced img {
+    width: 100%;
+    max-width: 350px; /* Maximum image size */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-advanced img:hover {
+    transform: scale(1.05);
+}
+
+/* Cards Grid for Exploration */
+.advanced-techniques-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+@media (max-width: 1024px) {
+    .advanced-techniques-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .advanced-techniques-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Cards */
+.advanced-technique-card {
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+    color: #333;
+}
+
+.advanced-technique-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.advanced-technique-card h4 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.advanced-technique-card p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.explore-advanced {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #2575fc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.explore-advanced:hover {
+    background-color: #1c61c0;
+}
+
+/* Testimonial Section */
+.testimonials-advanced {
+    margin-top: 50px;
+    padding: 40px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.testimonials-advanced h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.testimonials-advanced blockquote {
+    font-size: 1.2rem;
+    color: #666;
+    border-left: 4px solid #2575fc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.testimonials-advanced blockquote p {
+    font-style: italic;
+}
+
+.testimonials-advanced .author {
+    font-weight: 600;
+    color: #333;
+}
+
+/* Resource Links */
+.resources-advanced {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.resources-advanced h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.resources-advanced ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resources-advanced ul li {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.resources-advanced ul li a {
+    text-decoration: none;
+    color: #2575fc;
+}
+
+.resources-advanced ul li a:hover {
+    text-decoration: underline;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.app-teach-advanced, .hero-section-advanced, .advanced-techniques-section {
+    animation: fadeIn 1s ease-out;
+}

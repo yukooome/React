@@ -1,0 +1,123 @@
+.app {
+  background-color: #0e0e0e;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.titre {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+/* Grille Section */
+.grille {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .grille {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .grille {
+    grid-template-columns: 1fr; /* 1 column on small screens */
+  }
+}
+
+.carte {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: left;
+  position: relative;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Adding subtle shadow */
+}
+
+.carte:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.icone {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.explorer {
+  display: inline-block;
+  margin-top: 10px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #444;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.explorer:hover {
+  background-color: #666;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  width: 80%;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+
+  /* Animations subtiles pour l'interaction */
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .app, .hero-section, .apprendre-section {
+    animation: fadeIn 1s ease-out;
+  }
