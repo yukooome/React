@@ -6,7 +6,7 @@ const Anatomie = () => {
     <div className="app-anat">
       {/* Hero Section */}
       <div className="hero-section-anat">
-        <h1>Apprentissage de l'Anatomie</h1>
+        <h1>Les joies de l'anatomie</h1>
         <p className="intro-text-anat">
           Explorez les bases de l'anatomie humaine, comprenez la structure du corps et apprenez les fonctions essentielles des os et des muscles.
         </p>

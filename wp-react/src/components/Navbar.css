@@ -22,6 +22,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  
 }
 
 .navbar-links li {
@@ -64,14 +65,33 @@
 /* Pour mobile : menu burger aligné à droite et liens de navigation masqués par défaut */
 @media (max-width: 1125px) {
   .navbar-links {
-    display: none; /* Cache les liens de navigation sur petit écran */
+    display: none; /* Cache les liens de navigation par défaut */
     flex-direction: column; /* Empile les liens sur mobile */
     width: 100%;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.9); /* Ajoute un fond sombre avec transparence */
+    position: absolute; /* Assure que le menu se superpose bien */
+    top: 8vh; /* Place les liens sous la barre de navigation */
+    left: 0;
+    z-index: 999; /* Superpose les liens au-dessus d'autres éléments */
+    padding-bottom: 25px;
   }
 
   .navbar-links.active {
     display: flex; /* Affiche les liens lorsque le menu burger est cliqué */
+  }
+
+  .navbar-links a {
+    padding: 15px; /* Augmente l'espace autour des liens pour faciliter les clics */
+    width: 100%;
+    display: block;
+    background-color: #333; /* Ajoute un fond opaque pour chaque lien */
+    color: #fff; /* Contraste avec le texte pour plus de lisibilité */
+    border-bottom: 1px solid #444; /* Ajoute une séparation entre les liens */
+  }
+
+  .navbar-links a:hover {
+    background-color: #555; /* Change le fond au survol pour indiquer l'interaction */
   }
 
   .burger-menu {
@@ -79,6 +99,7 @@
   }
 
   .navbar {
-    justify-content: flex-start; /* Aligne le menu burger à gauche */
+    justify-content: space-between; /* Assure un bon positionnement entre le menu burger et les liens */
   }
 }
+

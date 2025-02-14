@@ -6,7 +6,7 @@ const ApprendreBases = () => {
     <div className="app-teach">
       {/* Hero Section */}
       <div className="hero-section-teach">
-        <h1>Bienvenue dans l'Apprentissage du Dessin</h1>
+        <h1>Découverte des bases</h1>
         <p className="intro-text-teach">
           Découvrez les bases du dessin et développez vos compétences artistiques étape par étape.
         </p>
