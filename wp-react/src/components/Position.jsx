@@ -6,9 +6,9 @@ const Position = () => {
     <div className="app-position">
       {/* Hero Section */}
       <div className="hero-section-position">
-        <h1>Explorer les Différentes Positions en Dessin</h1>
+        <h1>Explorer les Différentes Positions</h1>
         <p className="intro-text-position">
-          Découvrez comment dessiner différentes positions du corps humain et capturer les angles et les postures dans vos œuvres.
+          Découvrez comment dessiner différentes positions du corps humain et capturer les angles et les postures dans vos œuvres. Apprenez à comprendre les dynamiques de chaque position pour des dessins plus vivants et réalistes.
         </p>
       </div>
 
@@ -19,11 +19,12 @@ const Position = () => {
           La position anatomique de base est essentielle pour comprendre la structure du corps humain. C'est la posture la plus simple, utilisée comme référence pour dessiner d'autres poses. Voici ce qu'elle implique :
           <ul>
             <li><strong>Le corps debout :</strong> position verticale avec les bras droits et les jambes légèrement écartées.</li>
-            <li><strong>Les bras le long du corps :</strong> les paumes tournées vers l'avant.</li>
-            <li><strong>Les pieds joints :</strong> dirigés vers l'avant.</li>
+            <li><strong>Les bras le long du corps :</strong> les paumes tournées vers l'avant, les coudes légèrement pliés.</li>
+            <li><strong>Les pieds joints :</strong> dirigés vers l'avant, alignés avec les épaules.</li>
           </ul>
-          Dans cette position, les proportions du corps sont équilibrées, ce qui en fait un point de départ idéal pour de nombreux dessins anatomiques.
+          Dans cette position, les proportions du corps sont équilibrées et offrent une vue de base pour dessiner avec précision les autres postures.
         </p>
+        <p><strong>Conseil pour les artistes :</strong> Cette position sert de référence pour les autres poses. Apprenez à bien en maîtriser les proportions avant de vous aventurer dans des postures plus complexes.</p>
       </div>
       <div className="gallery-position">
         <img src="../assets/position.jpg" alt="Position anatomique de base" />
@@ -33,14 +34,14 @@ const Position = () => {
       <div className="apprendre-section-position">
         <h3>2. Position Couchée (Décubitus)</h3>
         <p>
-          Dessiner une personne allongée est un excellent moyen de comprendre comment le corps se repose sur une surface. Les positions couchées peuvent être :
+          Dessiner une personne allongée est un excellent moyen de comprendre comment le corps repose sur une surface. Voici les deux principales positions couchées :
           <ul>
-            <li><strong>Décubitus dorsal :</strong> allongé sur le dos, la tête et les membres visibles avec des perspectives intéressantes.</li>
-            <li><strong>Décubitus ventral :</strong> allongé sur le ventre, ce qui permet de montrer une autre dynamique du corps humain.</li>
+            <li><strong>Décubitus dorsal :</strong> allongé sur le dos, la tête et les membres visibles avec des perspectives intéressantes qui révèlent la courbure du dos et l'alignement des membres.</li>
+            <li><strong>Décubitus ventral :</strong> allongé sur le ventre, cette pose crée des tensions et des ombres dynamiques, idéale pour étudier les muscles du dos et la position des bras et des jambes.</li>
           </ul>
-          Ces positions sont particulièrement utiles pour étudier les courbes naturelles du corps et la manière dont la gravité affecte la silhouette.
+          Ces positions offrent des perspectives uniques et sont parfaites pour explorer les courbes naturelles du corps humain et les effets de la gravité.
         </p>
-        <p><strong>Conseil pour les artistes :</strong> Il est important de bien maîtriser les angles de vue et la manière dont la lumière et l'ombre créent des formes sur le corps dans ces positions.</p>
+        <p><strong>Conseil pour les artistes :</strong> Les angles de vue sont cruciaux dans ces poses. Travaillez à comprendre l'effet de la lumière et de l'ombre, car cela influencera grandement la dimension de votre dessin.</p>
       </div>
       <div className="gallery-position">
         <img src="../assets/position.jpg" alt="Décubitus dorsal" />
@@ -52,17 +53,47 @@ const Position = () => {
         <p>
           Dessiner des personnes assises présente des défis uniques. Il est important de capturer les angles formés par les hanches, les genoux et les coudes. Voici quelques variantes :
           <ul>
-            <li><strong>Assis droit :</strong> avec un dos bien droit et les jambes pliées à 90 degrés.</li>
-            <li><strong>Assis détendu :</strong> où la personne peut se pencher légèrement en avant ou s'incliner d'un côté.</li>
-            <li><strong>Assis en lotus :</strong> position utilisée en méditation, les jambes croisées et les pieds reposant sur les cuisses opposées.</li>
+            <li><strong>Assis droit :</strong> avec un dos bien droit et les jambes pliées à 90 degrés, souvent associé à une posture formelle.</li>
+            <li><strong>Assis détendu :</strong> la personne peut se pencher légèrement en avant ou s'incliner d'un côté, ce qui montre un relâchement musculaire et une posture plus naturelle.</li>
+            <li><strong>Assis en lotus :</strong> position de méditation, les jambes croisées et les pieds reposant sur les cuisses opposées. Cette pose demande une attention particulière à l'équilibre du tronc et des jambes.</li>
           </ul>
-          Dessiner ces positions aide à comprendre l'équilibre, la posture et les tensions musculaires en fonction de l'assise.
+          Dessiner ces positions permet de comprendre l'équilibre, la posture et la manière dont la gravité agit sur la structure du corps humain.
         </p>
-        <p><strong>Astuce pour les artistes :</strong> Pour des dessins plus dynamiques, étudier l'angle de la colonne vertébrale et la relation entre la position du bassin et des épaules est crucial.</p>
+        <p><strong>Astuce pour les artistes :</strong> Prêtez attention à la position de la colonne vertébrale et des hanches, car elles influencent l'angle des bras et des jambes. Ces éléments sont essentiels pour rendre un dessin plus réaliste.</p>
       </div>
       <div className="gallery-position">
         <img src="../assets/position5.jpg" alt="Position assise droite" />
         <img src="../assets/position6.jpg" alt="Position assise lotus" />
+      </div>
+
+      {/* Special Positions Section */}
+      <div className="apprendre-section-position">
+        <h3>4. Position Spéciale</h3>
+        <p>Les positions spéciales permettent de comprendre le corps humain selon différents angles de vue. Ces plans sont cruciaux pour analyser la structure du corps sous différents aspects.</p>
+
+        <h4>4.1. Plan Frontal</h4>
+        <p>
+          Le plan frontal est une vue du corps humain de face, permettant de capturer la symétrie et l'équilibre entre les deux côtés du corps. Cette position est utilisée pour étudier les mouvements symétriques et l'alignement des membres.
+        </p>
+        <div className="gallery-position">
+          <img src="../assets/plan_frontal.jpg" alt="Plan frontal du corps" />
+        </div>
+
+        <h4>4.2. Plan Sagittal</h4>
+        <p>
+          Le plan sagittal divise le corps humain en deux parties égales, de gauche à droite. Cette vue permet de capturer la profondeur du corps, en montrant l'alignement des structures musculaires et osseuses à partir de la perspective latérale.
+        </p>
+        <div className="gallery-position">
+          <img src="../assets/plan_sagittal.jpg" alt="Plan sagittal du corps" />
+        </div>
+
+        <h4>4.3. Plan Transversal</h4>
+        <p>
+          Le plan transversal divise le corps en parties supérieure et inférieure. Il permet de comprendre la perspective des parties du corps dans une vue en coupe, idéale pour étudier les organes internes et les structures sous-jacentes.
+        </p>
+        <div className="gallery-position">
+          <img src="../assets/plan_transversal.jpg" alt="Plan transversal du corps" />
+        </div>
       </div>
 
       {/* Testimonial Section */}
@@ -70,42 +101,16 @@ const Position = () => {
         <h3>Témoignages d'Artistes</h3>
         <blockquote>
           <p>
-            "Comprendre les différentes positions du corps humain en dessin m'a permis de donner plus de vie et de mouvement à mes œuvres. C'est essentiel pour capturer la réalité."
+            "Comprendre les différentes positions du corps humain en dessin m'a permis de donner plus de vie et de mouvement à mes œuvres. C'est essentiel pour capturer la réalité, surtout dans les poses dynamiques."
           </p>
           <footer className="author">– Lucas, Illustrateur professionnel</footer>
         </blockquote>
       </div>
 
-      {/* Cards Grid */}
-      <div className="grille-position">
-        <div className="carte-position">
-          <h4>Position Debout</h4>
-          <p>Apprenez à dessiner la position debout pour comprendre les proportions du corps et les perspectives.</p>
-        </div>
-        <div className="carte-position">
-          <h4>Position Couchée</h4>
-          <p>Étudiez les poses allongées pour mieux saisir les courbes et la dynamique du corps.</p>
-        </div>
-        <div className="carte-position">
-          <h4>Position Assise</h4>
-          <p>Maîtrisez la position assise et ses défis pour rendre les dessins plus réalistes et équilibrés.</p>
-        </div>
-      </div>
+      {/* Resource Links ?????????????????? */}
 
-      {/* Resource Links */}
-      <div className="resources-position">
-        <h3>Ressources pour Artistes</h3>
-        <ul>
-          <li><a href="#">Guide des différentes poses en dessin</a></li>
-          <li><a href="#">Exercices pour améliorer les perspectives de la figure humaine</a></li>
-          <li><a href="#">Vidéo sur la capture des positions du corps humain</a></li>
-        </ul>
-      </div>
     </div>
   );
 };
 
 export default Position;
-
-
-

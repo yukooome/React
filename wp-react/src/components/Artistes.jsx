@@ -6,7 +6,7 @@ const Artistes = () => {
     <div className="app-artiste">
       {/* Hero Section */}
       <div className="hero-section-artiste">
-        <h1>Découvrez les Œuvres des Artistes Numériques</h1>
+        <h1>Découvrez les Œuvres d'Artistes</h1>
         <p className="intro-text-artiste">
           Explorez les créations fascinantes de plusieurs artistes spécialisés dans le dessin numérique.
         </p>

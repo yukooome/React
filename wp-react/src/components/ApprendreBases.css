@@ -19,7 +19,8 @@ body {
   
   /* Hero Section */
   .hero-section-teach {
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background: linear-gradient(135deg, #184f25, #34d058);
+
     color: #fff;
     padding: 60px 20px;
     text-align: center;
@@ -29,16 +30,20 @@ body {
   }
   
   .hero-section-teach h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-bottom: 20px;
+    font-weight: 700;
   }
   
   .intro-text-teach {
     font-size: 1.2rem;
-    color: #f4f4f4;
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
+    line-height: 1.6;
+    font-weight: 300;
   }
+
+
   
   /* Main Content Section */
   .apprendre-section-teach {

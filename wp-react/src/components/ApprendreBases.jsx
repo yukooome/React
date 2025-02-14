@@ -28,7 +28,7 @@ const ApprendreBases = () => {
       <div className="apprendre-section-teach">
         <h3>2. Les Lignes</h3>
         <p>
-          Les lignes sont essentielles pour créer des contours, des ombres et des détails dans un dessin. Vous devez apprendre à varier les types de lignes : droites, courbes, fines ou épaisses. Une maîtrise des lignes vous permet de créer des textures, de l'épaisseur et de la profondeur.
+        Les lignes jouent un rôle fondamental dans la création des contours, des ombres et des détails d'un dessin. Il est essentiel d'apprendre à varier les types de lignes : qu'elles soient droites, courbes, fines ou épaisses. Une bonne maîtrise de ces variations vous permet de donner vie aux textures, d'ajouter de l'épaisseur et de créer de la profondeur dans vos œuvres. Savoir contrôler les lignes droites, courbes et diagonales vous aidera à affiner vos gestes, rendant vos dessins plus précis et expressifs.
         </p>
       </div>
 
@@ -51,6 +51,33 @@ const ApprendreBases = () => {
         <img src="../assets/position9.jpg" alt="Perspective en dessin" />
       </div>
 
+      <div className="apprendre-section-teach">
+  <h3>4. Ombres et Lumières</h3>
+  <p>
+    L'ombre et la lumière sont des éléments essentiels pour donner du volume et du réalisme à vos dessins. Apprenez à observer la direction de la lumière et à créer des ombres douces ou marquées pour mettre en relief vos formes. 
+    La gestion correcte des valeurs tonales apporte de la profondeur à vos œuvres et aide à rendre les objets plus réalistes.
+  </p>
+</div>
+<div className="gallery-teach">
+  <img src="../assets/ombres1.jpg" alt="Exemple d'ombre et lumière" />
+  <img src="../assets/ombres2.jpg" alt="Dégradé de lumière" />
+  <img src="../assets/ombres3.jpg" alt="Effet de volume grâce aux ombres" />
+</div>
+
+
+<div className="apprendre-section-teach">
+  <h3>5. L'Importance de l'Observation</h3>
+  <p>
+    Observer attentivement est une compétence essentielle pour tout artiste. Entraînez-vous à dessiner ce que vous voyez, et non ce que vous pensez voir. Prêtez attention aux proportions, aux angles, aux détails subtils et à la façon dont les objets interagissent avec leur environnement. Plus vous observez, plus vos dessins seront précis et réalistes.
+  </p>
+</div>
+<div className="gallery-teach">
+  <img src="../assets/observation1.jpg" alt="Étude d'observation" />
+  <img src="../assets/observation2.jpg" alt="Croquis d'observation" />
+  <img src="../assets/observation3.jpg" alt="Dessin de la réalité" />
+</div>
+
+
       {/* Testimonial Section */}
       <div className="testimonials-teach">
         <h3>Témoignages</h3>
@@ -65,7 +92,8 @@ const ApprendreBases = () => {
       </div>
 
       {/* Cards Grid */}
-      <div className="grille-teach">
+      
+      {/* <div className="grille-teach">
         <div className="carte-teach">
           <h4>Les Formes</h4>
           <p>Apprenez à maîtriser les formes simples pour construire des dessins complexes.</p>
@@ -78,7 +106,7 @@ const ApprendreBases = () => {
           <h4>La Perspective</h4>
           <p>Comprenez la perspective pour donner une illusion de profondeur à vos créations.</p>
         </div>
-      </div>
+      </div> */}
 
             {/* Resource Links */}
             <div className="resources-teach">

@@ -1,3 +1,19 @@
+
+body {
+  margin: 0; /* Enlève les marges par défaut */
+  padding: 0; /* Enlève les paddings par défaut */
+  font-family: 'Arial', sans-serif; /* Choisis une police globale */
+  background-color: #f4f4f4; /* Couleur de fond générale */
+  color: #333; /* Couleur du texte */
+  line-height: 1.6; /* Espacement de ligne confortable */
+}
+
+/* Global box-sizing to include padding and border in element's total width/height */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
 .app {
   background-color: #0e0e0e;
   color: #fff;

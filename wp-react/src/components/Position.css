@@ -19,7 +19,7 @@ body {
   
   /* Hero Section */
   .hero-section-position {
-    background: linear-gradient(135deg, #ff8c00, #ff416c);
+    background: linear-gradient(135deg, #ff0090, #ff416c);
     color: #fff;
     padding: 60px 20px;
     text-align: center;
@@ -29,16 +29,19 @@ body {
   }
   
   .hero-section-position h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-bottom: 20px;
+    font-weight: 700;
   }
   
   .intro-text-position {
     font-size: 1.2rem;
-    color: #f4f4f4;
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
+    line-height: 1.6;
+    font-weight: 300;
   }
+
   
   /* Main Content Section */
   .apprendre-section-position {

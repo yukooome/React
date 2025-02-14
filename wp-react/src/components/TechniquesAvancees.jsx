@@ -61,7 +61,7 @@ const TechniquesAvancees = () => {
       </div>
 
       {/* Cards Grid */}
-      <div className="advanced-techniques-grid">
+      {/* <div className="advanced-techniques-grid">
         <div className="advanced-technique-card">
           <h4>Les Couleurs</h4>
           <p>Apprenez à maîtriser les couleurs pour transformer vos dessins.</p>
@@ -74,7 +74,7 @@ const TechniquesAvancees = () => {
           <h4>Les Portraits</h4>
           <p>Maîtrisez le dessin réaliste des visages et des expressions.</p>
         </div>
-      </div>
+      </div> */}
 
       {/* Resources Section */}
       <div className="resources-advanced">

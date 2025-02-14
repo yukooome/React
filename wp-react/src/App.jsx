@@ -13,6 +13,7 @@ import Anatomie from './components/Anatomie';
 import Membre from './components/Membre';
 import Position from './components/Position';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 const Carte = ({ titre, description, icone, lien }) => {
   return (
@@ -71,7 +72,7 @@ const Home = () => {
   return (
 <div className="app">
       <div className="hero-section">
-        <h1>Apprenez à Dessiner avec Nous</h1>
+        <h1>Apprenez à Dessiner avec Artify</h1>
         <p className="intro-text">
           Que vous soyez un débutant ou un artiste en quête de perfectionnement, explorez nos ressources pour améliorer vos compétences en dessin.
         </p>
@@ -103,6 +104,7 @@ const App = () => {
         <Route path="/membre" element={<Membre />} />
         <Route path="/position" element={<Position />} />
       </Routes>
+      <Footer /> 
     </Router>
   );
 };
