@@ -107,8 +107,17 @@ const Position = () => {
         </blockquote>
       </div>
 
-      {/* Resource Links ?????????????????? */}
-
+      {/* Section Ressources */}
+      <div className="resources-position">
+        <h3>Ressources Supplémentaires sur les Positions du Corps</h3>
+        <ul>
+          <li><a href="#">Tutoriel vidéo : Comment dessiner des postures dynamiques</a></li>
+          <li><a href="#">Étude approfondie des plans anatomiques pour les artistes</a></li>
+          <li><a href="#">Guide de dessin : Positions assises, couchées et debout</a></li>
+          <li><a href="#">Outils pour esquisser rapidement des poses en action</a></li>
+          <li><a href="#">Analyse des positions spéciales pour des perspectives complexes</a></li>
+        </ul>
+      </div>
     </div>
   );
 };

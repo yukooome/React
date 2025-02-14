@@ -121,6 +121,45 @@ body {
     font-weight: 600;
     color: #333;
   }
+
+
+  /* Resource Links */
+  .resources-membre {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .resources-membre h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .resources-membre ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .resources-membre ul li {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .resources-membre ul li a {
+    text-decoration: none;
+    color: #2575fc;
+  }
+  
+  .resources-membre ul li a:hover {
+    text-decoration: underline;
+  }
+  
+
+
   
   /* Animations */
   @keyframes fadeIn {

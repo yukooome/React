@@ -2,7 +2,6 @@ import React from 'react';
 import './Membre.css';
 
 const Membre = () => {
-
   return (
     <div className="app-membre">
       {/* Hero Section */}
@@ -110,10 +109,17 @@ const Membre = () => {
         </blockquote>
       </div>
 
-      {/* Resource Links ?????????????????? */}
-
-
-
+      {/* Section Ressources */}
+      <div className="resources-membre">
+        <h3>Ressources Supplémentaires sur les Membres du Corps</h3>
+        <ul>
+          <li><a href="#">Guide détaillé de l'anatomie des bras et des jambes</a></li>
+          <li><a href="#">Vidéo explicative des mouvements des membres supérieurs et inférieurs</a></li>
+          <li><a href="#">Étude approfondie : "L'anatomie des mains et des pieds pour les artistes"</a></li>
+          <li><a href="#">Tutoriel de dessin anatomique : Focus sur les bras et les jambes</a></li>
+          <li><a href="#">Infographie sur les muscles et les articulations des membres</a></li>
+        </ul>
+      </div>
     </div>
   );
 };
