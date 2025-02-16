@@ -32,9 +32,9 @@ const ApprendreBases = () => {
           Les lignes jouent un rôle fondamental dans la création des contours, des ombres et des détails d'un dessin. Il est essentiel d'apprendre à varier les types de lignes : qu'elles soient droites, courbes, fines ou épaisses. Une bonne maîtrise de ces variations vous permet de donner vie aux textures, d'ajouter de l'épaisseur et de créer de la profondeur dans vos œuvres.
         </p>
         <div className="gallery-teach">
-          <img src="../assets/position4.jpg" alt="Exemple de dessin" />
-          <img src="../assets/position5.jpg" alt="Exemple de ligne et forme" />
-          <img src="../assets/position6.jpg" alt="Perspective en dessin" />
+        <img src="../assets/position.jpg" alt="Exemple de dessin" />
+          <img src="../assets/position.jpg" alt="Exemple de ligne et forme" />
+          <img src="../assets/position.jpg" alt="Perspective en dessin" />
         </div>
       </div>
 
@@ -45,9 +45,9 @@ const ApprendreBases = () => {
           La perspective est cruciale pour donner l'illusion de la profondeur sur une surface plate. Apprenez à dessiner en perspective à un ou deux points de fuite. Cela vous permettra de dessiner des objets et des scènes qui semblent réalistes et tridimensionnels, même sur une feuille de papier.
         </p>
         <div className="gallery-teach">
-          <img src="../assets/position7.jpg" alt="Exemple de dessin" />
-          <img src="../assets/position8.jpg" alt="Exemple de ligne et forme" />
-          <img src="../assets/position9.jpg" alt="Perspective en dessin" />
+        <img src="../assets/position.jpg" alt="Exemple de dessin" />
+          <img src="../assets/position.jpg" alt="Exemple de ligne et forme" />
+          <img src="../assets/position.jpg" alt="Perspective en dessin" />
         </div>
       </div>
 
@@ -58,9 +58,9 @@ const ApprendreBases = () => {
           L'ombre et la lumière sont des éléments essentiels pour donner du volume et du réalisme à vos dessins. Apprenez à observer la direction de la lumière et à créer des ombres douces ou marquées pour mettre en relief vos formes.
         </p>
         <div className="gallery-teach">
-          <img src="../assets/ombres1.jpg" alt="Exemple d'ombre et lumière" />
-          <img src="../assets/ombres2.jpg" alt="Dégradé de lumière" />
-          <img src="../assets/ombres3.jpg" alt="Effet de volume grâce aux ombres" />
+        <img src="../assets/position.jpg" alt="Exemple de dessin" />
+          <img src="../assets/position.jpg" alt="Exemple de ligne et forme" />
+          <img src="../assets/position.jpg" alt="Perspective en dessin" />
         </div>
       </div>
 

@@ -21,6 +21,10 @@ const Membre = () => {
         <div className="gallery-membre">
           <img src="../assets/tete1.jpg" alt="Anatomie de la tête" />
           <img src="../assets/tete2.jpg" alt="Vue latérale de la tête" />
+          <img src="../assets/tete3.jpg" alt="Anatomie de la tête" />
+          <img src="../assets/tete4.jpg" alt="Vue latérale de la tête" />
+          <img src="../assets/tete5.jpg" alt="Anatomie de la tête" />
+
         </div>
       </div>
 
@@ -33,6 +37,7 @@ const Membre = () => {
         <div className="gallery-membre">
           <img src="../assets/bras1.jpg" alt="Anatomie du bras" />
           <img src="../assets/bras2.jpg" alt="Vue des muscles du bras" />
+          <img src="../assets/bras3.jpg" alt="Vue des muscles du bras" />
         </div>
 
         {/* Sous-section dédiée aux mains */}
@@ -43,6 +48,8 @@ const Membre = () => {
         <div className="gallery-membre">
           <img src="../assets/main1.jpg" alt="Anatomie de la main" />
           <img src="../assets/main2.jpg" alt="Vue des muscles de la main" />
+          <img src="../assets/main3.jpg" alt="Anatomie de la main" />
+          <img src="../assets/main4.jpg" alt="Vue des muscles de la main" />
         </div>
       </div>
 
@@ -65,6 +72,7 @@ const Membre = () => {
         <div className="gallery-membre">
           <img src="../assets/pied1.jpg" alt="Anatomie du pied" />
           <img src="../assets/pied2.jpg" alt="Vue des os du pied" />
+          <img src="../assets/pied3.jpg" alt="Vue des os du pied" />
         </div>
       </div>
 
@@ -76,7 +84,7 @@ const Membre = () => {
         </p>
         <div className="gallery-membre">
           <img src="../assets/torse1.jpg" alt="Anatomie du torse" />
-          <img src="../assets/torse2.jpg" alt="Vue latérale du torse" />
+          {/* <img src="../assets/torse2.jpg" alt="Vue latérale du torse" /> */}
         </div>
       </div>
 

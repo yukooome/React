@@ -19,19 +19,40 @@ const TechniquesAvancees = () => {
           Maîtriser l'utilisation des couleurs peut transformer un dessin simple en une œuvre d'art. Apprenez à utiliser la couleur pour ajouter des émotions, de la profondeur et de la dimension à vos créations.
         </p>
         <div className="gallery-advanced">
-          <img src="image-couleurs.jpg" alt="Techniques de couleurs" />
+          <img src="./assets/color3.jpg" alt="Techniques de couleurs" />
+          <img src="./assets/color4.jpg" alt="Techniques de couleurs" />
+          <img src="./assets/color5.jpg" alt="Techniques de couleurs" />
         </div>
       </div>
 
       <div className="advanced-techniques-section">
-        <h3>2. Le Dessin en Noir et Blanc</h3>
-        <p>
-          Le dessin en noir et blanc vous permet de vous concentrer sur les détails, les contrastes et les textures. Maîtriser le clair-obscur vous aide à jouer avec la lumière et l'ombre pour créer des œuvres saisissantes.
-        </p>
-        <div className="gallery-advanced">
-          <img src="image-noir-et-blanc.jpg" alt="Dessin noir et blanc" />
-        </div>
-      </div>
+  <h3>2. Le Dessin en Noir et Blanc</h3>
+  <p>
+    Le dessin en noir et blanc vous permet de vous concentrer sur les détails, les contrastes et les textures. Maîtriser le clair-obscur vous aide à jouer avec la lumière et l'ombre pour créer des œuvres saisissantes.
+  </p>
+
+  {/* Sous-catégorie pour les dessins verticaux */}
+  <h4>2.1 Dessins Verticaux</h4>
+  <p className="gallery-description">
+    Les dessins verticaux se prêtent particulièrement bien aux portraits, capturant la stature et l'expression des sujets. Cette orientation met en valeur les formes humaines et les objets allongés, offrant une perspective unique sur les détails et la composition.
+  </p>
+  <div className="gallery-advanced vertical">
+    <img src="./assets/nb6.jpg" alt="Dessin noir et blanc vertical" />
+  </div>
+
+  {/* Sous-catégorie pour les dessins horizontaux */}
+  <h4>2.2 Dessins Horizontaux</h4>
+  <p className="gallery-description">
+    Les dessins horizontaux sont souvent utilisés pour des paysages ou des scènes larges. Ils offrent une perspective panoramique, permettant de capturer davantage de détails dans un seul plan et de créer un sentiment d'immensité ou de profondeur.
+  </p>
+  <div className="gallery-advanced horizontal">
+    <img src="./assets/nb1.jpg" alt="Dessin noir et blanc" />
+    <img src="./assets/nb2.jpg" alt="Dessin noir et blanc" />
+    <img src="./assets/nb3.jpg" alt="Dessin noir et blanc" />
+    <img src="./assets/nb4.jpg" alt="Dessin noir et blanc" />  
+  </div>
+</div>
+
 
       <div className="advanced-techniques-section">
         <h3>3. Dessin de Portraits Réalistes</h3>

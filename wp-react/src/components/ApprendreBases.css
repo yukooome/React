@@ -101,26 +101,58 @@ body {
   
 
   /* Gallery Section for Visuals */
-.gallery-teach {
+/* .gallery-teach {
     display: flex;
     gap: 20px;
     margin-top: 50px;
     flex-wrap: wrap;
   }
-  
   .gallery-teach img {
     width: 100%;
-    max-width: 350px; /* Taille maximale de l'image */
+    max-width: 350px; 
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
   }
-  
   .gallery-teach img:hover {
     transform: scale(1.05);
-  }
+  } */
   
+  /* Gallery Section for Visuals */
+.gallery-teach {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 images par ligne par défaut */
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.gallery-teach img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-teach img:hover {
+  transform: scale(1.05);
+}
+
+/* Media Query pour les tablettes : 2 images par ligne */
+@media (max-width: 768px) {
+  .gallery-teach {
+    grid-template-columns: repeat(2, 1fr); /* 2 images par ligne */
+  }
+}
+
+/* Media Query pour les mobiles : 1 image par ligne */
+@media (max-width: 480px) {
+  .gallery-teach {
+    grid-template-columns: 1fr; /* 1 image par ligne */
+  }
+}
+
   
   /* Cards Grid for Exploration */
   .grille-teach {

@@ -26,8 +26,8 @@ const Anatomie = () => {
         <p><strong>Importance du dessin :</strong> Dessiner le squelette humain dans différentes perspectives et positions aide à comprendre la relation entre les os et la manière dont ils supportent le corps, protègent les organes et permettent le mouvement.</p>
       </div>
       <div className="gallery-anat">
-        <img src="../assets/squelette1.jpg" alt="Vue du squelette humain" />
-        <img src="../assets/squelette2.jpg" alt="Vue du squelette axial" />
+        <img src="../assets/crane.jpg" alt="Vue du squelette humain" />
+        <img src="../assets/squelette-axial.jpg" alt="Vue du squelette axial" />
       </div>
 
       <div className="apprendre-section-anat">

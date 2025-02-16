@@ -45,7 +45,7 @@ const Position = () => {
       </div>
       <div className="gallery-position">
         <img src="../assets/position.jpg" alt="Décubitus dorsal" />
-        <img src="../assets/position4.jpg" alt="Décubitus ventral" />
+        <img src="../assets/position.jpg" alt="Décubitus ventral" />
       </div>
 
       <div className="apprendre-section-position">
@@ -62,8 +62,8 @@ const Position = () => {
         <p><strong>Astuce pour les artistes :</strong> Prêtez attention à la position de la colonne vertébrale et des hanches, car elles influencent l'angle des bras et des jambes. Ces éléments sont essentiels pour rendre un dessin plus réaliste.</p>
       </div>
       <div className="gallery-position">
-        <img src="../assets/position5.jpg" alt="Position assise droite" />
-        <img src="../assets/position6.jpg" alt="Position assise lotus" />
+        <img src="../assets/position.jpg" alt="Position assise droite" />
+        <img src="../assets/position.jpg" alt="Position assise lotus" />
       </div>
 
       {/* Special Positions Section */}
@@ -76,7 +76,11 @@ const Position = () => {
           Le plan frontal est une vue du corps humain de face, permettant de capturer la symétrie et l'équilibre entre les deux côtés du corps. Cette position est utilisée pour étudier les mouvements symétriques et l'alignement des membres.
         </p>
         <div className="gallery-position">
-          <img src="../assets/plan_frontal.jpg" alt="Plan frontal du corps" />
+          <img src="../assets/position1.jpg" alt="Plan frontal du corps" />
+          <img src="../assets/position2.jpg" alt="Plan frontal du corps" />
+          <img src="../assets/position6.jpg" alt="Plan frontal du corps" />
+          <img src="../assets/position7.jpg" alt="Plan frontal du corps" />
+          <img src="../assets/position9.jpg" alt="Plan frontal du corps" />
         </div>
 
         <h4>4.2. Plan Sagittal</h4>
@@ -84,7 +88,7 @@ const Position = () => {
           Le plan sagittal divise le corps humain en deux parties égales, de gauche à droite. Cette vue permet de capturer la profondeur du corps, en montrant l'alignement des structures musculaires et osseuses à partir de la perspective latérale.
         </p>
         <div className="gallery-position">
-          <img src="../assets/plan_sagittal.jpg" alt="Plan sagittal du corps" />
+          <img src="../assets/position4.jpg" alt="Plan sagittal du corps" />
         </div>
 
         <h4>4.3. Plan Transversal</h4>
@@ -92,7 +96,7 @@ const Position = () => {
           Le plan transversal divise le corps en parties supérieure et inférieure. Il permet de comprendre la perspective des parties du corps dans une vue en coupe, idéale pour étudier les organes internes et les structures sous-jacentes.
         </p>
         <div className="gallery-position">
-          <img src="../assets/plan_transversal.jpg" alt="Plan transversal du corps" />
+        <img src="../assets/position3.jpg" alt="Plan transversal" />
         </div>
       </div>
 
