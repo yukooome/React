@@ -1,0 +1,105 @@
+/* Styles généraux pour la barre de navigation */
+.navbar {
+  background-color: #1a1a1a; /* Couleur de fond assortie avec l'arrière-plan */
+  height: 8vh; /* Taille de la barre de navigation définie à 8% de la hauteur de l'écran */
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center; /* Centre le menu sur grand écran */
+  align-items: center;
+  position: relative;
+  padding: 0 20px; /* Ajuste le padding horizontal si nécessaire */
+}
+
+/* Liens de navigation pour le menu */
+.navbar-links {
+  display: flex;
+  justify-content: center; /* Centre les liens sur grands écrans */
+  gap: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.navbar-links li {
+  margin: 0;
+}
+
+.navbar-links a {
+  color: #f1f1f1; /* Assure que les liens sont bien visibles */
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-links a:hover {
+  background-color: #444; /* Couleur de survol pour correspondre au style de l'app */
+  color: #fff;
+  transform: scale(1.05); /* Effet de zoom au survol */
+}
+
+/* Burger menu, visible sur mobile uniquement */
+.burger-menu {
+  display: none; /* Masqué par défaut */
+  position: absolute;
+  right: 20px; /* Positionné à droite */
+  top: 20px;
+  cursor: pointer;
+}
+
+.burger-menu div {
+  width: 25px;
+  height: 3px;
+  margin: 5px 0;
+  background-color: #f1f1f1;
+  transition: all 0.3s ease;
+}
+
+/* Pour mobile : menu burger aligné à droite et liens de navigation masqués par défaut */
+@media (max-width: 1125px) {
+  .navbar-links {
+    display: none; /* Cache les liens de navigation par défaut */
+    flex-direction: column; /* Empile les liens sur mobile */
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9); /* Ajoute un fond sombre avec transparence */
+    position: absolute; /* Assure que le menu se superpose bien */
+    top: 8vh; /* Place les liens sous la barre de navigation */
+    left: 0;
+    z-index: 999; /* Superpose les liens au-dessus d'autres éléments */
+    padding-bottom: 25px;
+  }
+
+  .navbar-links.active {
+    display: flex; /* Affiche les liens lorsque le menu burger est cliqué */
+  }
+
+  .navbar-links a {
+    padding: 15px; /* Augmente l'espace autour des liens pour faciliter les clics */
+    width: 100%;
+    display: block;
+    background-color: #333; /* Ajoute un fond opaque pour chaque lien */
+    color: #fff; /* Contraste avec le texte pour plus de lisibilité */
+    border-bottom: 1px solid #444; /* Ajoute une séparation entre les liens */
+  }
+
+  .navbar-links a:hover {
+    background-color: #555; /* Change le fond au survol pour indiquer l'interaction */
+  }
+
+  .burger-menu {
+    display: block; /* Affiche le menu burger sur mobile */
+  }
+
+  .navbar {
+    justify-content: space-between; /* Assure un bon positionnement entre le menu burger et les liens */
+  }
+}
+

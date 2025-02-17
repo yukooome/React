@@ -1,0 +1,296 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    box-sizing: border-box;
+  }
+  
+  /* Main Blog Container */
+  .app-teach {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+  }
+  
+  /* Hero Section */
+  .hero-section-teach {
+    background: linear-gradient(135deg, #184f25, #34d058);
+
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+  }
+  
+  .hero-section-teach h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  
+  .intro-text-teach {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+
+
+  
+  /* Main Content Section */
+  .apprendre-section-teach {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Section Title */
+  .apprendre-section-teach h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  /* Paragraph */
+  .apprendre-section-teach p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.8;
+  }
+  
+  /* List of topics */
+  .apprendre-section-teach ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .apprendre-section-teach ul li {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .apprendre-section-teach ul li::before {
+    content: "•";
+    color: #2575fc;
+    margin-right: 10px;
+  }
+  
+  /* Tip Section */
+  .conseils-teach {
+    background-color: #fafafa;
+    padding: 20px;
+    border-left: 5px solid #2575fc;
+    margin-top: 30px;
+    font-size: 1.1rem;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+
+  /* Gallery Section for Visuals */
+/* .gallery-teach {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+  .gallery-teach img {
+    width: 100%;
+    max-width: 350px; 
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  .gallery-teach img:hover {
+    transform: scale(1.05);
+  } */
+  
+  /* Gallery Section for Visuals */
+.gallery-teach {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 images par ligne par défaut */
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.gallery-teach img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-teach img:hover {
+  transform: scale(1.05);
+}
+
+/* Media Query pour les tablettes : 2 images par ligne */
+@media (max-width: 768px) {
+  .gallery-teach {
+    grid-template-columns: repeat(2, 1fr); /* 2 images par ligne */
+  }
+}
+
+/* Media Query pour les mobiles : 1 image par ligne */
+@media (max-width: 480px) {
+  .gallery-teach {
+    grid-template-columns: 1fr; /* 1 image par ligne */
+  }
+}
+
+  
+  /* Cards Grid for Exploration */
+  .grille-teach {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+  }
+  
+  @media (max-width: 1024px) {
+    .grille-teach {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .grille-teach {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  /* Cards */
+  .carte-teach {
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+    color: #333;
+  }
+  
+  .carte-teach:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .carte-teach h4 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  .carte-teach p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  .explorer-teach {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #2575fc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explorer-teach:hover {
+    background-color: #1c61c0;
+  }
+  
+  /* Testimonial Section */
+  .testimonials-teach {
+    margin-top: 50px;
+    padding: 40px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .testimonials-teach h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .testimonials-teach blockquote {
+    font-size: 1.2rem;
+    color: #666;
+    border-left: 4px solid #2575fc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonials-teach blockquote p {
+    font-style: italic;
+  }
+  
+  .testimonials-teach .author {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* Resource Links */
+  .resources-teach {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .resources-teach h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .resources-teach ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .resources-teach ul li {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .resources-teach ul li a {
+    text-decoration: none;
+    color: #2575fc;
+  }
+  
+  .resources-teach ul li a:hover {
+    text-decoration: underline;
+  }
+  
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .app-teach, .hero-section-teach, .apprendre-section-teach {
+    animation: fadeIn 1s ease-out;
+  }
