@@ -19,9 +19,12 @@ const TechniquesAvancees = () => {
           Maîtriser l'utilisation des couleurs peut transformer un dessin simple en une œuvre d'art. Apprenez à utiliser la couleur pour ajouter des émotions, de la profondeur et de la dimension à vos créations.
         </p>
         <div className="gallery-advanced">
-          <img src="./assets/color3.jpg" alt="Techniques de couleurs" />
-          <img src="./assets/color4.jpg" alt="Techniques de couleurs" />
-          <img src="./assets/color5.jpg" alt="Techniques de couleurs" />
+          <img src="./assets/color.JPG" alt="Techniques de couleurs" />
+          <img src="./assets/color2.JPG" alt="Techniques de couleurs" />
+          <img src="./assets/color1.JPG" alt="Techniques de couleurs" />
+          <img src="./assets/color3.JPG" alt="Techniques de couleurs" />
+          <img src="./assets/color4.JPG" alt="Techniques de couleurs" />
+          <img src="./assets/color6.JPG" alt="Techniques de couleurs" />
         </div>
       </div>
 
