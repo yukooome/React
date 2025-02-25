@@ -27,8 +27,8 @@ const Position = () => {
         <p><strong>Conseil pour les artistes :</strong> Cette position sert de référence pour les autres poses. Apprenez à bien en maîtriser les proportions avant de vous aventurer dans des postures plus complexes.</p>
       </div>
       <div className="gallery-position">
-        <img src="../assets/position.jpg" alt="Position anatomique de base" />
-        <img src="../assets/position.jpg" alt="Position debout standard" />
+        <img src="../assets/base1.jpg" alt="Position anatomique de base" />
+        {/* <img src="../assets/position.jpg" alt="Position debout standard" /> */}
       </div>
 
       <div className="apprendre-section-position">
@@ -45,7 +45,7 @@ const Position = () => {
       </div>
       <div className="gallery-position">
         <img src="../assets/position.jpg" alt="Décubitus dorsal" />
-        <img src="../assets/position.jpg" alt="Décubitus ventral" />
+        {/* <img src="../assets/position.jpg" alt="Décubitus ventral" /> */}
       </div>
 
       <div className="apprendre-section-position">
@@ -62,8 +62,8 @@ const Position = () => {
         <p><strong>Astuce pour les artistes :</strong> Prêtez attention à la position de la colonne vertébrale et des hanches, car elles influencent l'angle des bras et des jambes. Ces éléments sont essentiels pour rendre un dessin plus réaliste.</p>
       </div>
       <div className="gallery-position">
-        <img src="../assets/position.jpg" alt="Position assise droite" />
-        <img src="../assets/position.jpg" alt="Position assise lotus" />
+        <img src="../assets/assis1.jpg" alt="Position assise droite" />
+        {/* <img src="../assets/position.jpg" alt="Position assise lotus" /> */}
       </div>
 
       {/* Special Positions Section */}
@@ -76,11 +76,12 @@ const Position = () => {
           Le plan frontal est une vue du corps humain de face, permettant de capturer la symétrie et l'équilibre entre les deux côtés du corps. Cette position est utilisée pour étudier les mouvements symétriques et l'alignement des membres.
         </p>
         <div className="gallery-position">
-          <img src="../assets/position1.jpg" alt="Plan frontal du corps" />
-          <img src="../assets/position2.jpg" alt="Plan frontal du corps" />
+          {/* <img src="../assets/position1.jpg" alt="Plan frontal du corps" /> */}
+          {/* <img src="../assets/position2.jpg" alt="Plan frontal du corps" /> */}
           <img src="../assets/position6.jpg" alt="Plan frontal du corps" />
           <img src="../assets/position7.jpg" alt="Plan frontal du corps" />
           <img src="../assets/position9.jpg" alt="Plan frontal du corps" />
+          <img src="../assets/position10.jpg" alt="Plan frontal du corps" />
         </div>
 
         <h4>4.2. Plan Sagittal</h4>

@@ -13,18 +13,59 @@ const TechniquesAvancees = () => {
       </div>
 
       {/* Main Content */}
-      <div className="advanced-techniques-section">
+      {/* <div className="advanced-techniques-section">
         <h3>1. Dessiner avec des Couleurs</h3>
         <p>
           Maîtriser l'utilisation des couleurs peut transformer un dessin simple en une œuvre d'art. Apprenez à utiliser la couleur pour ajouter des émotions, de la profondeur et de la dimension à vos créations.
         </p>
         <div className="gallery-advanced">
-          <img src="./assets/color.JPG" alt="Techniques de couleurs" />
           <img src="./assets/color2.JPG" alt="Techniques de couleurs" />
           <img src="./assets/color1.JPG" alt="Techniques de couleurs" />
           <img src="./assets/color3.JPG" alt="Techniques de couleurs" />
           <img src="./assets/color4.JPG" alt="Techniques de couleurs" />
           <img src="./assets/color6.JPG" alt="Techniques de couleurs" />
+        </div>
+      </div> */}
+
+
+<div className="advanced-techniques-section">
+        <h3>1. Dessiner avec des Couleurs</h3>
+        <p>
+          Maîtriser l'utilisation des couleurs peut transformer un dessin simple en une œuvre d'art. Apprenez à utiliser la couleur pour ajouter des émotions, de la profondeur et de la dimension à vos créations.
+        </p>
+
+        {/* Sous-catégorie pour les dessins verticaux */}
+        <h4>1.1 Dessins Verticaux</h4>
+        <p className="gallery-description">
+          Les dessins verticaux offrent une perspective allongée qui peut ajouter de la hauteur et de la structure à votre composition. Ils sont souvent utilisés pour représenter des sujets tels que des objets allongés ou des paysages verticaux.
+        </p>
+        <div className="gallery-advanced vertical">
+        <img src="./assets/color2.JPG" alt="Techniques de couleurs" />
+          <img src="./assets/color1.JPG" alt="Techniques de couleurs" />
+          <img src="./assets/color3.JPG" alt="Techniques de couleurs" />
+          <img src="./assets/color4.JPG" alt="Techniques de couleurs" />
+          <img src="./assets/color6.JPG" alt="Techniques de couleurs" />
+        </div>
+
+        {/* Sous-catégorie pour les dessins horizontaux */}
+        <h4>1.2 Dessins Horizontaux</h4>
+        <p className="gallery-description">
+          Les dessins horizontaux offrent une perspective large idéale pour les paysages ou les scènes panoramiques. Cette orientation permet de capturer une vision plus étendue et immersive.
+        </p>
+        <div className="gallery-advanced horizontal">
+          <img src="./assets/color_horizontal1.jpg" alt="Dessin couleur horizontal" />
+          <img src="./assets/color_horizontal2.jpg" alt="Dessin couleur horizontal" />
+        </div>
+
+        {/* Sous-catégorie pour les dessins carrés */}
+        <h4>1.3 Dessins Carrés</h4>
+        <p className="gallery-description">
+          Les dessins carrés sont parfaits pour les compositions équilibrées et symétriques. Ils permettent de jouer avec l'harmonie et l'équilibre dans vos œuvres, en offrant un cadre naturel pour les portraits, les natures mortes et autres sujets centrés.
+        </p>
+        <div className="gallery-advanced square">
+          <img src="./assets/poster1.jpg" alt="Dessin couleur carré" />
+          <img src="./assets/poster2.jpg" alt="Dessin couleur carré" />
+          <img src="./assets/poster3.jpg" alt="Dessin couleur carré" />
         </div>
       </div>
 

@@ -1,0 +1,59 @@
+/* DifferencesDessins.css */
+
+.differences-section {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Titres principaux */
+.differences-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #4e8fd7; /* Bleu doux pour les titres */
+    margin-bottom: 20px;
+}
+
+/* Sous-titres */
+.differences-section h3 {
+    font-size: 1.5rem;
+    color: #63a7db; /* Bleu plus clair pour les sous-titres */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Texte normal */
+.differences-section p {
+    font-size: 1.1rem;
+    /* color: #d1e1f2; */
+    color: #ffffff;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Texte en gras */
+.differences-section strong {
+    color: #5b8fc9; /* Bleu légèrement plus soutenu pour les éléments en gras */
+}
+
+/* Listes */
+.differences-section ul {
+    margin-left: 20px;
+    color: #ffffff; /* Bleu pâle pour les listes */
+}
+
+.differences-section li {
+    margin-bottom: 10px;
+}
+
+/* Section parcours autodidacte */
+.differences-section .autodidacte-section {
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 2px solid #eee;
+}
+
+

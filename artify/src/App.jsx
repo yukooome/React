@@ -14,6 +14,7 @@ import Membre from './components/Membre';
 import Position from './components/Position';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import DifferencesDessins from './components/DifferencesDessins';
 
 const Carte = ({ titre, description, icone, lien }) => {
   return (
@@ -87,6 +88,10 @@ const Home = () => {
           <Carte key={index} {...carte} />
         ))}
       </div>
+
+            {/* Ajout de la nouvelle section ici */}
+            <DifferencesDessins />
+            
     </div>
 
 
