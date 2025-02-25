@@ -40,8 +40,9 @@ const TechniquesAvancees = () => {
           Les dessins verticaux offrent une perspective allongée qui peut ajouter de la hauteur et de la structure à votre composition. Ils sont souvent utilisés pour représenter des sujets tels que des objets allongés ou des paysages verticaux.
         </p>
         <div className="gallery-advanced vertical">
-        <img src="./assets/color2.JPG" alt="Techniques de couleurs" />
+
           <img src="./assets/color1.JPG" alt="Techniques de couleurs" />
+          <img src="./assets/color2.JPG" alt="Techniques de couleurs" />
           <img src="./assets/color3.JPG" alt="Techniques de couleurs" />
           <img src="./assets/color4.JPG" alt="Techniques de couleurs" />
           <img src="./assets/color6.JPG" alt="Techniques de couleurs" />
