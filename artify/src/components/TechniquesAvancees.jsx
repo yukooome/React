@@ -43,8 +43,8 @@ const TechniquesAvancees = () => {
 
           <img src="./assets/color1.JPG" alt="Techniques de couleurs" />
           <img src="./assets/color2.JPG" alt="Techniques de couleurs" />
-          <img src="./assets/color3.JPG" alt="Techniques de couleurs" />
-          <img src="./assets/color4.JPG" alt="Techniques de couleurs" />
+          {/* <img src="./assets/color3.JPG" alt="Techniques de couleurs" /> */}
+          {/* <img src="./assets/color4.JPG" alt="Techniques de couleurs" /> */}
           <img src="./assets/color6.JPG" alt="Techniques de couleurs" />
         </div>
 
