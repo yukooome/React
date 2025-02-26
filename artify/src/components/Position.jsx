@@ -63,7 +63,7 @@ const Position = () => {
       </div>
       <div className="gallery-position">
         <img src="../assets/assis1.jpg" alt="Position assise droite" />
-        {/* <img src="../assets/position.jpg" alt="Position assise lotus" /> */}
+        <img src="../assets/assis2.jpg" alt="Position assise droite" />
       </div>
 
       {/* Special Positions Section */}
