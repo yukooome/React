@@ -58,9 +58,9 @@ const ApprendreBases = () => {
           L'ombre et la lumière sont des éléments essentiels pour donner du volume et du réalisme à vos dessins. Apprenez à observer la direction de la lumière et à créer des ombres douces ou marquées pour mettre en relief vos formes.
         </p>
         <div className="gallery-teach">
-        <img src="../assets/position.jpg" alt="Exemple de dessin" />
-          <img src="../assets/position.jpg" alt="Exemple de ligne et forme" />
-          <img src="../assets/position.jpg" alt="Perspective en dessin" />
+        <img src="../assets/ombre1.jpg" alt="Exemple de dessin" />
+          <img src="../assets/ombre2.jpg" alt="Exemple de ligne et forme" />
+          {/* <img src="../assets/position.jpg" alt="Perspective en dessin" /> */}
         </div>
       </div>
 
