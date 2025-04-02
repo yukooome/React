@@ -84,6 +84,8 @@ const Position = () => {
           <img src="../assets/position9.jpg" alt="Plan frontal du corps" />
           <img src="../assets/position10.jpg" alt="Plan frontal du corps" />
           <img src="../assets/position12.jpg" alt="Plan frontal du corps" />
+          <img src="../assets/position14.jpg" alt="Plan sagittal du corps" />
+          <img src="../assets/position15.jpg" alt="Plan sagittal du corps" />
         </div>
 
         <h4>4.2. Plan Sagittal</h4>
@@ -92,6 +94,7 @@ const Position = () => {
         </p>
         <div className="gallery-position">
           <img src="../assets/position4.jpg" alt="Plan sagittal du corps" />
+          <img src="../assets/position13.jpg" alt="Plan sagittal du corps" />
         </div>
 
         <h4>4.3. Plan Transversal</h4>
