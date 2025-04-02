@@ -67,6 +67,11 @@ const TechniquesAvancees = () => {
           <img src="./assets/poster1.jpg" alt="Dessin couleur carré" />
           <img src="./assets/poster2.jpg" alt="Dessin couleur carré" />
           <img src="./assets/poster3.jpg" alt="Dessin couleur carré" />
+          <img src="./assets/poster4.jpg" alt="Dessin couleur carré" />
+          <img src="./assets/poster5.jpg" alt="Dessin couleur carré" />
+          <img src="./assets/poster6.jpg" alt="Dessin couleur carré" />
+          <img src="./assets/poster7.jpg" alt="Dessin couleur carré" />
+          <img src="./assets/poster8.jpg" alt="Dessin couleur carré" />
         </div>
       </div>
 
@@ -105,7 +110,7 @@ const TechniquesAvancees = () => {
           Le portrait réaliste est un défi, mais avec les bonnes techniques, vous pouvez créer des dessins qui capturent la personnalité et les émotions des personnes. Explorez les proportions et les détails essentiels pour réussir un portrait.
         </p>
         <div className="gallery-advanced">
-          <img src="image-portraits.jpg" alt="Portraits réalistes" />
+          {/* <img src="image-portraits.jpg" alt="Portraits réalistes" /> */}
         </div>
       </div>
 
@@ -115,7 +120,7 @@ const TechniquesAvancees = () => {
           Apprenez à donner une dimension réelle à vos dessins en maîtrisant la perspective et les ombres. Le dessin en 3D et la modélisation permettent de représenter des objets avec plus de profondeur et de réalisme.
         </p>
         <div className="gallery-advanced">
-          <img src="image-perspective-3d.jpg" alt="Dessin en 3D" />
+          {/* <img src="image-perspective-3d.jpg" alt="Dessin en 3D" /> */}
         </div>
       </div>
 

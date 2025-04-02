@@ -28,7 +28,8 @@ const Position = () => {
       </div>
       <div className="gallery-position">
         <img src="../assets/base1.jpg" alt="Position anatomique de base" />
-        {/* <img src="../assets/position.jpg" alt="Position debout standard" /> */}
+        <img src="../assets/base2.jpg" alt="Position anatomique de base" />
+        <img src="../assets/base3.jpg" alt="Position anatomique de base" />
       </div>
 
       <div className="apprendre-section-position">
@@ -44,7 +45,7 @@ const Position = () => {
         <p><strong>Conseil pour les artistes :</strong> Les angles de vue sont cruciaux dans ces poses. Travaillez à comprendre l'effet de la lumière et de l'ombre, car cela influencera grandement la dimension de votre dessin.</p>
       </div>
       <div className="gallery-position">
-        <img src="../assets/position.jpg" alt="Décubitus dorsal" />
+        {/* <img src="../assets/position.jpg" alt="Décubitus dorsal" /> */}
         {/* <img src="../assets/position.jpg" alt="Décubitus ventral" /> */}
       </div>
 
@@ -82,6 +83,7 @@ const Position = () => {
           <img src="../assets/position7.jpg" alt="Plan frontal du corps" />
           <img src="../assets/position9.jpg" alt="Plan frontal du corps" />
           <img src="../assets/position10.jpg" alt="Plan frontal du corps" />
+          <img src="../assets/position12.jpg" alt="Plan frontal du corps" />
         </div>
 
         <h4>4.2. Plan Sagittal</h4>

@@ -60,8 +60,8 @@ const Membre = () => {
           Les jambes soutiennent le corps et facilitent la marche. Elles sont composées du fémur, du tibia, du péroné et du pied. Les articulations de la hanche, du genou et de la cheville permettent des mouvements complexes.
         </p>
         <div className="gallery-membre">
-          <img src="../assets/jambe1.jpg" alt="Anatomie de la jambe" />
-          <img src="../assets/jambe2.jpg" alt="Structure osseuse de la jambe" />
+          {/* <img src="../assets/jambe1.jpg" alt="Anatomie de la jambe" /> */}
+          {/* <img src="../assets/jambe2.jpg" alt="Structure osseuse de la jambe" /> */}
         </div>
 
         {/* Sous-section dédiée aux pieds */}
@@ -95,8 +95,8 @@ const Membre = () => {
           Le bassin est une structure osseuse qui soutient le tronc et relie la colonne vertébrale aux membres inférieurs. Il protège les organes pelviens et joue un rôle essentiel dans les mouvements de la marche.
         </p>
         <div className="gallery-membre">
-          <img src="../assets/bassin1.jpg" alt="Anatomie du bassin" />
-          <img src="../assets/bassin2.jpg" alt="Vue du bassin humain" />
+          {/* <img src="../assets/bassin1.jpg" alt="Anatomie du bassin" /> */}
+          {/* <img src="../assets/bassin2.jpg" alt="Vue du bassin humain" /> */}
         </div>
       </div>
 

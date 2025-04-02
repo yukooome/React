@@ -45,8 +45,8 @@ const Anatomie = () => {
         <p><strong>Importance du dessin :</strong> Lorsque vous dessinez les muscles, vous comprenez non seulement leur emplacement dans le corps, mais aussi leur fonction. Par exemple, dessiner les muscles du bras en action (comme les biceps et triceps) vous permet de mieux appréhender les mouvements du coude et du poignet.</p>
       </div>
       <div className="gallery-anat">
-        <img src="../assets/muscles1.jpg" alt="Vue des muscles squelettiques" />
-        <img src="../assets/muscles2.jpg" alt="Muscles et leurs fonctions" />
+        {/* <img src="../assets/muscles1.jpg" alt="Vue des muscles squelettiques" /> */}
+        {/* <img src="../assets/muscles2.jpg" alt="Muscles et leurs fonctions" /> */}
       </div>
 
       <div className="apprendre-section-anat">
@@ -63,8 +63,8 @@ const Anatomie = () => {
         <p><strong>Importance du dessin :</strong> Les articulations jouent un rôle essentiel dans le mouvement humain. En dessinant des articulations dans différentes positions, vous pouvez visualiser comment elles facilitent les mouvements complexes du corps humain, comme lors de scènes d'action ou de mouvement.</p>
       </div>
       <div className="gallery-anat">
-        <img src="../assets/articulations1.jpg" alt="Articulations humaines" />
-        <img src="../assets/articulations2.jpg" alt="Vue des articulations mobiles" />
+        {/* <img src="../assets/articulations1.jpg" alt="Articulations humaines" /> */}
+        {/* <img src="../assets/articulations2.jpg" alt="Vue des articulations mobiles" /> */}
       </div>
 
       <div className="apprendre-section-anat">
@@ -76,8 +76,8 @@ const Anatomie = () => {
         <p><strong>Importance du dessin :</strong> Entraînez-vous à dessiner le corps humain en tenant compte de ces proportions, afin de garantir un équilibre dans vos croquis et illustrations, qu'ils soient réalistes ou stylisés.</p>
       </div>
       <div className="gallery-anat">
-        <img src="../assets/proportions1.jpg" alt="Étude des proportions humaines" />
-        <img src="../assets/proportions2.jpg" alt="Proportions en dessin" />
+        {/* <img src="../assets/proportions1.jpg" alt="Étude des proportions humaines" /> */}
+        {/* <img src="../assets/proportions2.jpg" alt="Proportions en dessin" /> */}
       </div>
 
       <div className="apprendre-section-anat">
@@ -94,9 +94,9 @@ const Anatomie = () => {
         <p><strong>Importance du dessin :</strong> Maîtriser l'anatomie de base vous permet de donner des variations subtiles et audacieuses à vos personnages, en les rendant plus crédibles tout en leur conférant des éléments fantastiques qui les différencient des humains ordinaires.</p>
       </div>
       <div className="gallery-anat">
-        <img src="../assets/elfe1.jpg" alt="Dessin d'un elfe" />
-        <img src="../assets/gobelin1.jpg" alt="Dessin d'un gobelin" />
-        <img src="../assets/ange1.jpg" alt="Dessin d'un ange" />
+        {/* <img src="../assets/elfe1.jpg" alt="Dessin d'un elfe" /> */}
+        {/* <img src="../assets/gobelin1.jpg" alt="Dessin d'un gobelin" /> */}
+        {/* <img src="../assets/ange1.jpg" alt="Dessin d'un ange" /> */}
       </div>
 
       {/* Testimonial Section */}

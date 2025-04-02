@@ -45,9 +45,9 @@ const ApprendreBases = () => {
           La perspective est cruciale pour donner l'illusion de la profondeur sur une surface plate. Apprenez à dessiner en perspective à un ou deux points de fuite. Cela vous permettra de dessiner des objets et des scènes qui semblent réalistes et tridimensionnels, même sur une feuille de papier.
         </p>
         <div className="gallery-teach">
-        <img src="../assets/position.jpg" alt="Exemple de dessin" />
-          <img src="../assets/position.jpg" alt="Exemple de ligne et forme" />
-          <img src="../assets/position.jpg" alt="Perspective en dessin" />
+        {/* <img src="../assets/position.jpg" alt="Exemple de dessin" /> */}
+          {/* <img src="../assets/position.jpg" alt="Exemple de ligne et forme" /> */}
+          {/* <img src="../assets/position.jpg" alt="Perspective en dessin" /> */}
         </div>
       </div>
 
@@ -71,9 +71,9 @@ const ApprendreBases = () => {
           Observer attentivement est une compétence essentielle pour tout artiste. Entraînez-vous à dessiner ce que vous voyez, et non ce que vous pensez voir. Prêtez attention aux proportions, aux angles, aux détails subtils et à la façon dont les objets interagissent avec leur environnement.
         </p>
         <div className="gallery-teach">
-          <img src="../assets/observation1.jpg" alt="Étude d'observation" />
-          <img src="../assets/observation2.jpg" alt="Croquis d'observation" />
-          <img src="../assets/observation3.jpg" alt="Dessin de la réalité" />
+          {/* <img src="../assets/observation1.jpg" alt="Étude d'observation" /> */}
+          {/* <img src="../assets/observation2.jpg" alt="Croquis d'observation" /> */}
+          {/* <img src="../assets/observation3.jpg" alt="Dessin de la réalité" /> */}
         </div>
       </div>
 
