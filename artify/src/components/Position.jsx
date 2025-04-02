@@ -86,6 +86,7 @@ const Position = () => {
           <img src="../assets/position12.jpg" alt="Plan frontal du corps" />
           <img src="../assets/position14.jpg" alt="Plan sagittal du corps" />
           <img src="../assets/position15.jpg" alt="Plan sagittal du corps" />
+          <img src="../assets/position16.jpg" alt="Plan sagittal du corps" />
         </div>
 
         <h4>4.2. Plan Sagittal</h4>
