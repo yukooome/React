@@ -54,7 +54,7 @@ const TechniquesAvancees = () => {
           Les dessins horizontaux offrent une perspective large idéale pour les paysages ou les scènes panoramiques. Cette orientation permet de capturer une vision plus étendue et immersive.
         </p>
         <div className="gallery-advanced horizontal">
-          <img src="./assets/color_horizontal1.jpg" alt="Dessin couleur horizontal" />
+          <img src="./assets/Carnetluffy.jpg" alt="Dessin couleur horizontal" />
           {/* <img src="./assets/color_horizontal2.jpg" alt="Dessin couleur horizontal" /> */}
         </div>
 

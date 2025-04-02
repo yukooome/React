@@ -19,9 +19,9 @@ const ApprendreBases = () => {
           Le dessin commence par les formes géométriques simples. Apprenez à dessiner des cercles, carrés, triangles, et d'autres formes de base. Ces formes sont les éléments de construction de tout dessin plus complexe. Par exemple, un visage peut être esquissé à l'aide de cercles pour les contours de la tête et des yeux.
         </p>
         <div className="gallery-teach">
-          <img src="../assets/position.jpg" alt="Exemple de dessin" />
-          <img src="../assets/position.jpg" alt="Exemple de ligne et forme" />
-          <img src="../assets/position.jpg" alt="Perspective en dessin" />
+          <img src="../assets/cercle.jpg" alt="Exemple de dessin" />
+          <img src="../assets/cube.jpg" alt="Exemple de ligne et forme" />
+          <img src="../assets/triangle.jpg" alt="Perspective en dessin" />
         </div>
       </div>
 
@@ -32,9 +32,9 @@ const ApprendreBases = () => {
           Les lignes jouent un rôle fondamental dans la création des contours, des ombres et des détails d'un dessin. Il est essentiel d'apprendre à varier les types de lignes : qu'elles soient droites, courbes, fines ou épaisses. Une bonne maîtrise de ces variations vous permet de donner vie aux textures, d'ajouter de l'épaisseur et de créer de la profondeur dans vos œuvres.
         </p>
         <div className="gallery-teach">
-        <img src="../assets/position.jpg" alt="Exemple de dessin" />
-          <img src="../assets/position.jpg" alt="Exemple de ligne et forme" />
-          <img src="../assets/position.jpg" alt="Perspective en dessin" />
+        <img src="../assets/ligne.jpg" alt="Exemple de dessin" />
+          <img src="../assets/courbe.jpg" alt="Exemple de ligne et forme" />
+          <img src="../assets/serpentin.jpg" alt="Perspective en dessin" />
         </div>
       </div>
 
