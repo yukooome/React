@@ -72,6 +72,7 @@ const TechniquesAvancees = () => {
           <img src="./assets/poster6.jpg" alt="Dessin couleur carré" />
           <img src="./assets/poster7.jpg" alt="Dessin couleur carré" />
           <img src="./assets/poster8.jpg" alt="Dessin couleur carré" />
+          <img src="./assets/poster9.jpg" alt="Dessin couleur carré" />
         </div>
       </div>
 
