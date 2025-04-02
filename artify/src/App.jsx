@@ -44,17 +44,12 @@ const Home = () => {
       lien: "/techniques-avancees"
     },
     {
-      titre: "Artistes",
-      description: "Apprenez à dessiner avec des outils numériques, en explorant des logiciels comme Photoshop, Procreate, etc.",
-      icone: "💻",
-      lien: "/artistes"
-    },
-    {
       titre: "Anatomie artistique",
       description: "Comprenez les bases de l'anatomie pour dessiner des personnages réalistes avec des proportions précises.",
       icone: "👤",
       lien: "/anatomie"
     },
+
     {
       titre: "Membre",
       description: "Explorez les différentes parties du corps humain dans le dessin.",
@@ -66,6 +61,12 @@ const Home = () => {
       description: "Apprenez à dessiner des personnages dans différentes positions et angles.",
       icone: "🧍", 
       lien: "/position"
+    },
+    {
+      titre: "Artistes",
+      description: "Apprenez à dessiner en découvrant le travail d'artiste, en tout, genre, qui partage leur univers avec nous.",
+      icone: "💻",
+      lien: "/artistes"
     }
     
   ];
