@@ -206,3 +206,95 @@ body {
     animation: fadeIn 1s ease-out;
   }
   
+
+
+
+ /* Modal Overlay */
+ .modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal Content */
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 90%;
+  width: 500px; /* Taille fixe sur grand écran */
+  text-align: center;
+  position: relative;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Image dans la modal */
+.modal-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Texte de description */
+.modal-content p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Bouton de fermeture */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #555;
+  background: none; /* Supprime le fond de la case */
+  border: none; /* Supprime la bordure */
+  padding: 5px; /* Ajoute un peu de padding si nécessaire */
+  transition: 0.3s;
+}
+
+/* Changer la couleur du X en rouge au survol */
+.close-button:hover {
+  color: red !important;
+  background: none; /* S'assurer qu'il n'y a pas de fond au survol */
+}
+
+
+/* Animation d'apparition */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Mode responsive */
+@media (max-width: 600px) {
+  .modal-content {
+    width: 90%; /* Plus petit sur mobile */
+    padding: 15px;
+  }
+
+  .modal-content p {
+    font-size: 14px;
+  }
+
+  .close-button {
+    font-size: 20px;
+  }
+}
