@@ -36,9 +36,9 @@ const TechniquesAvancees = () => {
           Les dessins verticaux offrent une perspective allongée qui peut ajouter de la hauteur et de la structure à votre composition. Ils sont souvent utilisés pour représenter des sujets tels que des objets allongés ou des paysages verticaux.
         </p>
         <div className="gallery-advanced vertical">
-          <img src="./assets/color1.jpg" alt="Techniques de couleurs" onClick={() => openModal('./assets/color1.jpg', 'Description de l\'image 1')} />
-          <img src="./assets/color2.jpg" alt="Techniques de couleurs" onClick={() => openModal('./assets/color2.jpg', 'Description de l\'image 2')} />
-          <img src="./assets/color6.jpg" alt="Techniques de couleurs" onClick={() => openModal('./assets/color6.jpg', 'Description de l\'image 6')} />
+          <img src="./assets/color1.jpg" alt="Techniques de couleurs" onClick={() => openModal('./assets/color1.jpg', 'L\'utilisation de différents pinceaux m\'a permis de composer une scène représentant une jeune fille assise sur une branche d\'arbre, au cœur de la forêt, baignée par des rayons de lumière filtrant à travers le feuillage.')} />
+          <img src="./assets/color2.jpg" alt="Techniques de couleurs" onClick={() => openModal('./assets/color2.jpg', 'Dans cette composition, on découvre une jeune fille accroupie sous un arrêt de bus, prenant un moment de quiétude pour apprécier la compagnie d\'un petit chat, dans une ambiance douce et contemplative.')} />
+          <img src="./assets/color6.jpg" alt="Techniques de couleurs" onClick={() => openModal('./assets/color6.jpg', 'On y voit une jeune femme, assise dos contre un mur, pieds nus, éclairée par un unique rayon de lumière. Cette mise en scène épurée laisse place à l’imagination : peut-être est-elle captive dans une sorte de boxe austère, sans décoration, plongée dans ses pensées.')} />
         </div>
 
         <h4>1.2 Dessins Horizontaux</h4>
@@ -46,7 +46,7 @@ const TechniquesAvancees = () => {
           Les dessins horizontaux offrent une perspective large idéale pour les paysages ou les scènes panoramiques.
         </p>
         <div className="gallery-advanced horizontal">
-          <img src="./assets/Carnetluffy.jpg" alt="Dessin couleur horizontal" onClick={() => openModal('./assets/Carnetluffy.jpg', 'Description du dessin horizontal')} />
+          <img src="./assets/Carnetluffy.jpg" alt="Dessin couleur horizontal" onClick={() => openModal('./assets/Carnetluffy.jpg', 'Luffy')} />
           {/* <img src="./assets/color_horizontal2.jpg" alt="Dessin couleur horizontal" onClick={() => openModal('./assets/color_horizontal2.jpg', 'Description du dessin horizontal 2')} /> */}
         </div>
 
@@ -55,15 +55,15 @@ const TechniquesAvancees = () => {
           Les dessins carrés sont parfaits pour les compositions équilibrées et symétriques.
         </p>
         <div className="gallery-advanced square">
-          <img src="./assets/poster1.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster1.jpg', 'Description du dessin carré 1')} />
-          <img src="./assets/poster2.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster2.jpg', 'Description du dessin carré 2')} />
-          <img src="./assets/poster3.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster3.jpg', 'Description du dessin carré 3')} />
-          <img src="./assets/poster4.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster4.jpg', 'Description du dessin carré 4')} />
-          <img src="./assets/poster5.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster5.jpg', 'Description du dessin carré 5')} />
-          <img src="./assets/poster6.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster6.jpg', 'Description du dessin carré 6')} />
-          <img src="./assets/poster7.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster7.jpg', 'Description du dessin carré 7')} />
-          <img src="./assets/poster8.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster8.jpg', 'Description du dessin carré 8')} />
-          <img src="./assets/poster9.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster9.jpg', 'Description du dessin carré 9')} />
+          <img src="./assets/poster1.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster1.jpg', 'Sakamoto')} />
+          <img src="./assets/poster2.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster2.jpg', 'Sung Jin-Woo')} />
+          <img src="./assets/poster3.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster3.jpg', 'Itachi-Sasuke')} />
+          <img src="./assets/poster4.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster4.jpg', 'Équipage du chapeau de paille: Luffy–Nami–Zorro')} />
+          <img src="./assets/poster5.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster5.jpg', 'Guts')} />
+          <img src="./assets/poster6.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster6.jpg', 'Thorfinn')} />
+          <img src="./assets/poster7.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster7.jpg', 'Kakashi')} />
+          <img src="./assets/poster8.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster8.jpg', 'Onizuka et sa Kawasaki')} />
+          <img src="./assets/poster9.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster9.jpg', 'Personnage imaginaire, dérivé du Pokémon Lucario')} />
         </div>
       </div>
 
@@ -79,7 +79,7 @@ const TechniquesAvancees = () => {
           Les dessins verticaux se prêtent particulièrement bien aux portraits, capturant la stature et l'expression des sujets.
         </p>
         <div className="gallery-advanced vertical">
-          <img src="./assets/nb6.jpg" alt="Dessin noir et blanc vertical" onClick={() => openModal('./assets/nb6.jpg', 'Dessin noir et blanc vertical')} />
+          <img src="./assets/nb6.jpg" alt="Dessin noir et blanc vertical" onClick={() => openModal('./assets/nb6.jpg', 'Meruem')} />
         </div>
 
         <h4>2.2 Dessins Horizontaux</h4>
@@ -87,10 +87,10 @@ const TechniquesAvancees = () => {
           Les dessins horizontaux sont souvent utilisés pour des paysages ou des scènes larges.
         </p>
         <div className="gallery-advanced horizontal">
-          <img src="./assets/nb1.jpg" alt="Dessin noir et blanc" onClick={() => openModal('./assets/nb1.jpg', 'Dessin noir et blanc 1')} />
-          <img src="./assets/nb2.jpg" alt="Dessin noir et blanc" onClick={() => openModal('./assets/nb2.jpg', 'Dessin noir et blanc 2')} />
-          <img src="./assets/nb3.jpg" alt="Dessin noir et blanc" onClick={() => openModal('./assets/nb3.jpg', 'Dessin noir et blanc 3')} />
-          <img src="./assets/nb4.jpg" alt="Dessin noir et blanc" onClick={() => openModal('./assets/nb4.jpg', 'Dessin noir et blanc 4')} />
+          <img src="./assets/nb1.jpg" alt="Dessin noir et blanc" onClick={() => openModal('./assets/nb1.jpg', 'Zaraki')} />
+          <img src="./assets/nb2.jpg" alt="Dessin noir et blanc" onClick={() => openModal('./assets/nb2.jpg', 'Toji')} />
+          <img src="./assets/nb3.jpg" alt="Dessin noir et blanc" onClick={() => openModal('./assets/nb3.jpg', 'Hiei')} />
+          <img src="./assets/nb4.jpg" alt="Dessin noir et blanc" onClick={() => openModal('./assets/nb4.jpg', 'Guts')} />
         </div>
       </div>
 
