@@ -2,16 +2,18 @@ import React, { useState } from 'react';
 import './TechniquesAvancees.css';
 
 const TechniquesAvancees = () => {
-  const [modalIsOpen, setModalIsOpen] = useState(false);
-  const [modalContent, setModalContent] = useState({});
+  const [modalOpen, setModalOpen] = useState(false);
+  const [modalImage, setModalImage] = useState('');
+  const [modalText, setModalText] = useState('');
 
-  const openModal = (imageSrc, description) => {
-    setModalContent({ imageSrc, description });
-    setModalIsOpen(true);
+  const openModal = (src, text) => {
+    setModalImage(src);
+    setModalText(text);
+    setModalOpen(true);
   };
 
   const closeModal = () => {
-    setModalIsOpen(false);
+    setModalOpen(false);
   };
 
   return (
@@ -46,8 +48,9 @@ const TechniquesAvancees = () => {
           Les dessins horizontaux offrent une perspective large idéale pour les paysages ou les scènes panoramiques.
         </p>
         <div className="gallery-advanced horizontal">
-          <img src="./assets/Carnetluffy.jpg" alt="Dessin couleur horizontal" onClick={() => openModal('./assets/Carnetluffy.jpg', 'Luffy')} />
-          {/* <img src="./assets/color_horizontal2.jpg" alt="Dessin couleur horizontal" onClick={() => openModal('./assets/color_horizontal2.jpg', 'Description du dessin horizontal 2')} /> */}
+          <img src="./assets/Carnetluffy.jpg" alt="Dessin couleur horizontal" onClick={() => openModal('./assets/Carnetluffy.jpg', 'Illustration de Luffy, personnage emblématique, dans une pose vive, capturant l’esprit du gros mangeur.')} />
+
+          <img src="./assets/poster9.jpg" alt="Personnage inspiré de Lucario" onClick={() => openModal('./assets/poster9.jpg', 'Création originale inspirée de Lucario, mêlant puissance animale et design futuriste.')} />
         </div>
 
         <h4>1.3 Dessins Carrés</h4>
@@ -55,15 +58,15 @@ const TechniquesAvancees = () => {
           Les dessins carrés sont parfaits pour les compositions équilibrées et symétriques.
         </p>
         <div className="gallery-advanced square">
-          <img src="./assets/poster1.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster1.jpg', 'Sakamoto')} />
-          <img src="./assets/poster2.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster2.jpg', 'Sung Jin-Woo')} />
-          <img src="./assets/poster3.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster3.jpg', 'Itachi-Sasuke')} />
-          <img src="./assets/poster4.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster4.jpg', 'Équipage du chapeau de paille: Luffy–Nami–Zorro')} />
-          <img src="./assets/poster5.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster5.jpg', 'Guts')} />
-          <img src="./assets/poster6.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster6.jpg', 'Thorfinn')} />
-          <img src="./assets/poster7.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster7.jpg', 'Kakashi')} />
-          <img src="./assets/poster8.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster8.jpg', 'Onizuka et sa Kawasaki')} />
-          <img src="./assets/poster9.jpg" alt="Dessin couleur carré" onClick={() => openModal('./assets/poster9.jpg', 'Personnage imaginaire, dérivé du Pokémon Lucario')} />
+          <img src="./assets/poster1.jpg" alt="Sakamoto" onClick={() => openModal('./assets/poster1.jpg', 'Illustration de Sakamoto dans le style manga, soulignant sa précision légendaire.')} />
+          <img src="./assets/poster2.jpg" alt="Sung Jin-Woo" onClick={() => openModal('./assets/poster2.jpg', 'Portrait de Sung Jin-Woo dans une ambiance sombre et intense, évoquant son ascension fulgurante.')} />
+          <img src="./assets/poster3.jpg" alt="Itachi et Sasuke" onClick={() => openModal('./assets/poster3.jpg', 'Une scène poignante réunissant Itachi et Sasuke, chargée d’émotion et de tension.')} />
+          <img src="./assets/poster4.jpg" alt="Équipage du chapeau de paille" onClick={() => openModal('./assets/poster4.jpg', 'Représentation joyeuse de Luffy, Nami, Zorro, illustrant leur mode de vie.')} />
+          <img src="./assets/poster5.jpg" alt="Guts" onClick={() => openModal('./assets/poster5.jpg', 'Guts représenté dans toute sa puissance brute, prêt à affronter les ténèbres.')} />
+          <img src="./assets/poster6.jpg" alt="Thorfinn" onClick={() => openModal('./assets/poster6.jpg', 'Thorfinn, le regard chargé de vengeance, dans un style manga et dramatique.')} />
+          <img src="./assets/poster7.jpg" alt="Kakashi" onClick={() => openModal('./assets/poster7.jpg', 'Kakashi, masqué et mystérieux.')} />
+          <img src="./assets/poster8.jpg" alt="Onizuka" onClick={() => openModal('./assets/poster8.jpg', 'Onizuka en pleine virée sur sa Kawasaki, entre insolence et liberté.')} />
+          {/* <img src="./assets/poster9.jpg" alt="Personnage inspiré de Lucario" onClick={() => openModal('./assets/poster9.jpg', 'Création originale inspirée de Lucario, mêlant puissance animale et design futuriste.')} /> */}
         </div>
       </div>
 
@@ -71,7 +74,7 @@ const TechniquesAvancees = () => {
       <div className="advanced-techniques-section">
         <h3>2. Le Dessin en Noir et Blanc</h3>
         <p>
-          Le dessin en noir et blanc vous permet de vous concentrer sur les détails, les contrastes et les textures.
+          Le dessin en noir et blanc vous permet de vous concentrer sur les détails, les contrastes et les textures. Il offre une esthétique épurée qui met en valeur la structure et les jeux d’ombres.
         </p>
 
         <h4>2.1 Dessins Verticaux</h4>
@@ -79,7 +82,7 @@ const TechniquesAvancees = () => {
           Les dessins verticaux se prêtent particulièrement bien aux portraits, capturant la stature et l'expression des sujets.
         </p>
         <div className="gallery-advanced vertical">
-          <img src="./assets/nb6.jpg" alt="Dessin noir et blanc vertical" onClick={() => openModal('./assets/nb6.jpg', 'Meruem')} />
+          <img src="./assets/nb6.jpg" alt="Meruem" onClick={() => openModal('./assets/nb6.jpg', 'Portrait intense de Meruem, roi des fourmis chimères, dominé par l’ombre et la symbolique de la puissance.')} />
         </div>
 
         <h4>2.2 Dessins Horizontaux</h4>
@@ -87,10 +90,10 @@ const TechniquesAvancees = () => {
           Les dessins horizontaux sont souvent utilisés pour des paysages ou des scènes larges.
         </p>
         <div className="gallery-advanced horizontal">
-          <img src="./assets/nb1.jpg" alt="Dessin noir et blanc" onClick={() => openModal('./assets/nb1.jpg', 'Zaraki')} />
-          <img src="./assets/nb2.jpg" alt="Dessin noir et blanc" onClick={() => openModal('./assets/nb2.jpg', 'Toji')} />
-          <img src="./assets/nb3.jpg" alt="Dessin noir et blanc" onClick={() => openModal('./assets/nb3.jpg', 'Hiei')} />
-          <img src="./assets/nb4.jpg" alt="Dessin noir et blanc" onClick={() => openModal('./assets/nb4.jpg', 'Guts')} />
+          <img src="./assets/nb1.jpg" alt="Zaraki" onClick={() => openModal('./assets/nb1.jpg', 'Zaraki Kenpachi, dans un contraste fort, traduisant sa brutalité et son charisme sauvage.')} />
+          <img src="./assets/nb2.jpg" alt="Toji" onClick={() => openModal('./assets/nb2.jpg', 'Toji Fushiguro dans un jeu d’ombres maîtrisé, soulignant que même avec sa puissance, il peut être surpris.')} />
+          <img src="./assets/nb3.jpg" alt="Hiei" onClick={() => openModal('./assets/nb3.jpg', 'Hiei, rapide et impitoyable, dans une composition avec un regard glaçant.')} />
+          <img src="./assets/nb4.jpg" alt="Guts NB" onClick={() => openModal('./assets/nb4.jpg', 'Version noir et blanc de Guts, illustrant la dualité entre ténèbres et lumière.')} />
         </div>
       </div>
 
@@ -98,10 +101,10 @@ const TechniquesAvancees = () => {
       <div className="advanced-techniques-section">
         <h3>3. Dessin de Portraits Réalistes</h3>
         <p>
-          Le portrait réaliste est un défi, mais avec les bonnes techniques, vous pouvez créer des dessins qui capturent la personnalité et les émotions des personnes. Explorez les proportions et les détails essentiels pour réussir un portrait.
+          Le portrait réaliste est un défi majeur pour tout artiste. Il nécessite de comprendre les proportions, les ombres et les traits caractéristiques d’un visage. Avec de la pratique, vous serez capable de capturer l’essence et l’émotion de vos sujets.
         </p>
         <div className="gallery-advanced">
-          {/* Ajoutez des images pour cette section si vous en avez */}
+          {/* Ajoutez des images ici si vous en avez */}
         </div>
       </div>
 
@@ -109,20 +112,20 @@ const TechniquesAvancees = () => {
       <div className="advanced-techniques-section">
         <h3>4. Dessin en 3D et Modélisation</h3>
         <p>
-          Apprenez à donner une dimension réelle à vos dessins en maîtrisant la perspective et les ombres. Le dessin en 3D et la modélisation permettent de représenter des objets avec plus de profondeur et de réalisme.
+          Apprenez à donner une dimension réelle à vos dessins en maîtrisant la perspective, les ombres portées et les volumes. La 3D permet une immersion visuelle puissante dans vos illustrations.
         </p>
         <div className="gallery-advanced">
-          {/* Ajoutez des images pour cette section si vous en avez */}
+          {/* Ajoutez des images ici si vous en avez */}
         </div>
       </div>
 
       {/* Modal */}
-      {modalIsOpen && (
-        <div className="modal-overlay">
-          <div className="modal-content">
+      {modalOpen && (
+        <div className="modal-overlay" onClick={closeModal}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <span className="close-button" onClick={closeModal}>&times;</span>
-            <img src={modalContent.imageSrc} alt="Modal Image" />
-            <p>{modalContent.description}</p>
+            <img src={modalImage} alt="Zoom" />
+            <p>{modalText}</p>
           </div>
         </div>
       )}
@@ -148,14 +151,6 @@ const TechniquesAvancees = () => {
 };
 
 export default TechniquesAvancees;
-
-
-
-
-
-
-
-
 
 
 

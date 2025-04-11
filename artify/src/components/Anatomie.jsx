@@ -155,9 +155,9 @@ const Anatomie = () => {
     <div className="app-anat">
       {/* Hero Section */}
       <div className="hero-section-anat">
-        <h1>Les joies de l'anatomie</h1>
+        <h1>Les Joies de l'Anatomie</h1>
         <p className="intro-text-anat">
-          Explorez les bases de l'anatomie humaine, comprenez la structure du corps et apprenez les fonctions essentielles des os et des muscles.
+          Explorez les bases de l'anatomie humaine, comprenez la structure du corps, et apprenez à maîtriser les proportions, les mouvements, et les interactions entre les muscles et les os pour dessiner avec réalisme et dynamisme.
         </p>
       </div>
 
@@ -165,17 +165,16 @@ const Anatomie = () => {
       <div className="apprendre-section-anat">
         <h3>1. Le Squelette Humain</h3>
         <p>
-          Le squelette humain est constitué de 206 os. Ce nombre peut varier légèrement en fonction des individus (certains peuvent avoir des os supplémentaires comme des côtes surnuméraires).
-          Il se divise en deux grandes parties :
+          Le squelette humain comprend 206 os, répartis sur tout le corps. Ces os sont essentiels pour le soutien, la protection des organes vitaux, et la facilitation du mouvement. Ils se divisent en deux parties principales :
         </p>
         <ul>
-          <li><strong>Squelette axial :</strong> composé du crâne, de la colonne vertébrale, des côtes et du sternum. Il protège les organes vitaux comme le cerveau, le cœur et les poumons.</li>
-          <li><strong>Squelette appendiculaire :</strong> composé des membres supérieurs et inférieurs ainsi que des ceintures scapulaire et pelvienne.</li>
+          <li><strong>Squelette axial :</strong> Le crâne, la colonne vertébrale, les côtes et le sternum, qui protègent le cerveau, la moelle épinière, et les organes internes vitaux comme le cœur et les poumons.</li>
+          <li><strong>Squelette appendiculaire :</strong> Les membres supérieurs et inférieurs, les ceintures scapulaire (épaules) et pelvienne, qui permettent le mouvement et l'interaction avec l'environnement.</li>
         </ul>
         <p>
-          Chaque os a une forme et une fonction spécifiques, comme les os longs (ex. : fémur) qui soutiennent le poids, ou les os plats (ex. : crâne) qui protègent le cerveau.
+          En dessin, il est essentiel de connaître les relations entre les os pour comprendre les mouvements du corps. Par exemple, la forme et la position de la clavicule influencent les mouvements des bras, tandis que la structure du bassin est cruciale pour l'équilibre et la posture.
         </p>
-        <p><strong>Importance du dessin :</strong> Dessiner le squelette humain dans différentes perspectives aide à comprendre sa fonction et ses proportions.</p>
+        <p><strong>Importance du dessin :</strong> Une bonne maîtrise de l'anatomie du squelette permet de dessiner des personnages avec des positions réalistes, en tenant compte des contraintes physiques et des mouvements des articulations.</p>
       </div>
       <div className="gallery-anat">
         <img src="../assets/crane.jpg" alt="Crâne humain" onClick={() => openModal('../assets/crane.jpg', 'Le crâne protège le cerveau et structure le visage.')} />
@@ -185,60 +184,80 @@ const Anatomie = () => {
       {/* Section 2: Les Muscles */}
       <div className="apprendre-section-anat">
         <h3>2. Les Muscles</h3>
-        <p>Le corps humain contient plus de 600 muscles. Ils sont responsables du mouvement, de la posture et de l’absorption des chocs.</p>
+        <p>
+          Le corps humain est composé de plus de 600 muscles, classés en trois grandes catégories selon leur fonction :
+        </p>
         <ul>
-          <li><strong>Muscles squelettiques :</strong> contrôlés volontairement, comme les biceps ou les quadriceps.</li>
-          <li><strong>Muscles lisses :</strong> présents dans les organes internes et agissant de manière involontaire.</li>
-          <li><strong>Muscle cardiaque :</strong> unique au cœur, il pompe le sang continuellement.</li>
+          <li><strong>Muscles squelettiques :</strong> Ce sont des muscles volontaires, comme les biceps, qui sont attachés aux os et permettent de réaliser des mouvements. Ils jouent également un rôle clé dans la posture.</li>
+          <li><strong>Muscles lisses :</strong> Ces muscles involontaires, comme ceux présents dans les intestins et les vaisseaux sanguins, permettent des fonctions essentielles, comme le transit digestif et la régulation de la circulation sanguine.</li>
+          <li><strong>Muscle cardiaque :</strong> Le cœur, qui est un muscle unique, permet de pomper le sang dans tout le corps sans interruption.</li>
         </ul>
-        <p>Groupes importants : biceps, triceps, quadriceps, ischio-jambiers.</p>
-        <p><strong>Importance du dessin :</strong> Comprendre l’anatomie musculaire permet de représenter les mouvements, la tension et la posture de manière crédible.</p>
+        <p>
+          Chaque muscle a une structure et une fonction spécifique. Par exemple, les muscles antagonistes, comme les biceps et les triceps, travaillent ensemble pour créer le mouvement de flexion et d'extension du bras.
+        </p>
+        <p>
+          Il est important de comprendre comment les muscles se déplacent et se déforment sous l'effet du mouvement, ce qui influence la façon dont ils sont dessinés. Les muscles ne sont pas simplement des "formes" à dessiner, mais des éléments dynamiques qui répondent à la posture et aux actions du corps.
+        </p>
+        <p><strong>Importance du dessin :</strong> Pour représenter des personnages en mouvement, il est crucial de comprendre la manière dont les muscles se contractent, se tendent, et interagissent avec le squelette.</p>
       </div>
       <div className="gallery-anat">
         {/* <img src="../assets/muscles1.jpg" alt="Muscles squelettiques" onClick={() => openModal('../assets/muscles1.jpg', 'Les muscles squelettiques permettent le mouvement volontaire.')} /> */}
         {/* <img src="../assets/muscles2.jpg" alt="Muscles et fonctions" onClick={() => openModal('../assets/muscles2.jpg', 'Comprendre la fonction des muscles est essentiel pour le dessin anatomique.')} /> */}
       </div>
 
-      {/* Section 3: Articulations */}
+      {/* Section 3: Les Articulations */}
       <div className="apprendre-section-anat">
         <h3>3. Les Articulations</h3>
-        <p>Les articulations relient les os et permettent leur mobilité. On distingue :</p>
+        <p>
+          Les articulations permettent aux os de bouger les uns par rapport aux autres. Elles sont cruciales pour la mobilité du corps et se divisent en trois types principaux :
+        </p>
         <ul>
-          <li><strong>Articulations mobiles :</strong> comme le genou ou l’épaule, très flexibles.</li>
-          <li><strong>Articulations semi-mobiles :</strong> comme celles de la colonne vertébrale.</li>
-          <li><strong>Articulations immobiles :</strong> comme celles du crâne.</li>
+          <li><strong>Articulations mobiles :</strong> Ces articulations offrent une large amplitude de mouvement, comme celles du genou, de l'épaule, et du coude.</li>
+          <li><strong>Articulations semi-mobiles :</strong> Par exemple, les articulations entre les vertèbres de la colonne vertébrale, qui permettent un mouvement limité tout en maintenant la stabilité.</li>
+          <li><strong>Articulations immobiles :</strong> Les sutures du crâne, qui unissent les os de manière fixe, permettant de protéger le cerveau.</li>
         </ul>
-        <p><strong>Importance du dessin :</strong> Pour dessiner des mouvements dynamiques ou réalistes, il est crucial de comprendre comment les articulations bougent ou se verrouillent.</p>
+        <p>
+          Comprendre la manière dont les articulations permettent ou limitent le mouvement est crucial pour le dessin dynamique. Par exemple, l'articulation de l'épaule permet une grande variété de mouvements, tandis que celle du genou est plus limitée, ce qui affecte la façon dont une pose ou un geste sera représenté.
+        </p>
+        <p><strong>Importance du dessin :</strong> Maîtriser l'anatomie des articulations permet de comprendre la gamme de mouvements possible dans une pose et d’éviter des représentations mécaniques ou irréalistes des personnages.</p>
       </div>
       <div className="gallery-anat">
         {/* <img src="../assets/articulations1.jpg" alt="Articulations humaines" onClick={() => openModal('../assets/articulations1.jpg', 'Les articulations assurent la flexibilité et les mouvements du corps.')} /> */}
         {/* <img src="../assets/articulations2.jpg" alt="Articulations mobiles" onClick={() => openModal('../assets/articulations2.jpg', 'Les articulations mobiles comme le genou ou l’épaule sont cruciales pour les gestes du quotidien.')} /> */}
       </div>
 
-      {/* Section 4: Proportions humaines */}
+      {/* Section 4: Les Proportions Humaines */}
       <div className="apprendre-section-anat">
         <h3>4. Les Proportions Humaines</h3>
-        <p>Le corps humain est souvent mesuré en "têtes". Un adulte fait environ 7,5 à 8 têtes de haut. Les proportions varient avec l'âge.</p>
-        <p>Par exemple, un enfant aura une tête plus grande proportionnellement, tandis qu’un adulte aura un torse plus développé. Ces différences doivent être maîtrisées pour un dessin crédible.</p>
-        <p><strong>Importance du dessin :</strong> Comprendre les bonnes proportions est fondamental pour éviter les erreurs de structure et donner de la cohérence à vos personnages.</p>
+        <p>
+          Les proportions humaines sont souvent mesurées en "têtes". En général, un adulte mesure environ 7,5 à 8 têtes de hauteur, et cette règle permet d’obtenir des proportions réalistes.
+        </p>
+        <p>
+          Il existe des variations de proportions selon l'âge et le sexe. Par exemple, un enfant a une tête proportionnellement plus grande que celle d'un adulte, tandis qu’un homme adulte aura un torse plus large par rapport à ses jambes.
+        </p>
+        <p>
+          Il est également important de comprendre l’équilibre entre la longueur des bras, des jambes, du tronc, et de la tête pour créer des dessins harmonieux et proportionnés. Les proportions varient aussi selon les ethnicités et peuvent être stylisées pour des rendus plus créatifs.
+        </p>
+        <p><strong>Importance du dessin :</strong> La maîtrise des proportions humaines vous permet d'éviter les erreurs de représentation et de mieux gérer les détails lorsque vous dessinez des personnages dans différentes poses et perspectives.</p>
       </div>
       <div className="gallery-anat">
         {/* <img src="../assets/proportions1.jpg" alt="Étude des proportions" onClick={() => openModal('../assets/proportions1.jpg', 'Le corps humain adulte mesure environ 8 têtes de haut.')} /> */}
         {/* <img src="../assets/proportions2.jpg" alt="Proportions selon l'âge" onClick={() => openModal('../assets/proportions2.jpg', 'Les proportions changent selon l’âge, notamment chez l’enfant.')} /> */}
       </div>
 
-      {/* Section 5: Personnages imaginaires */}
+      {/* Section 5: Anatomie des Personnages Imaginaires */}
       <div className="apprendre-section-anat">
         <h3>5. L'Anatomie des Personnages Imaginaires</h3>
         <p>
-          Les personnages imaginaires comme les elfes, gobelins ou anges nécessitent une base anatomique réelle, avec des variations créatives : ailes, proportions, formes exagérées...
+          Les personnages fantastiques, comme les elfes, gobelins, anges, et autres créatures imaginaires, s’inspirent souvent de l'anatomie humaine mais possèdent des particularités qui rendent leur représentation unique.
         </p>
         <p>
-          <strong>Elfes :</strong> traits fins, silhouette élancée, oreilles longues.  
-          <br /><strong>Gobelins :</strong> membres courts, musculature exagérée.  
-          <br /><strong>Anges :</strong> ailes attachées au niveau des omoplates.
+          <strong>Exemples de variations anatomiques :</strong>
+          <br /><strong>Elfes :</strong> Silhouette élancée, traits fins, grandes oreilles pointues, corps proportionnellement plus mince que celui d'un humain.
+          <br /><strong>Gobelins :</strong> Corps trapus, membres courts et musclés, souvent avec des traits exagérés pour un effet caricatural.
+          <br /><strong>Anges :</strong> Corps humain normal mais avec des ailes, souvent représentées avec une envergure impressionnante et une structure fine.
         </p>
-        <p><strong>Importance du dessin :</strong> Bien maîtriser l’anatomie humaine permet de mieux en détourner les règles pour créer des êtres crédibles et stylisés.</p>
+        <p><strong>Importance du dessin :</strong> Bien qu’imaginaires, ces personnages doivent respecter des principes anatomiques de base pour être crédibles. Savoir comment manipuler les proportions humaines tout en introduisant des éléments fantastiques est essentiel pour rendre ces personnages vivants et cohérents.</p>
       </div>
       <div className="gallery-anat">
         {/* <img src="../assets/elfe1.jpg" alt="Elfe" onClick={() => openModal('../assets/elfe1.jpg', 'Un elfe élégant, avec une silhouette fine et des oreilles allongées.')} /> */}
