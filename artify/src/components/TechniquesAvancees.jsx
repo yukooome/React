@@ -33,19 +33,23 @@ const TechniquesAvancees = () => {
           Maîtriser l'utilisation des couleurs peut transformer un dessin simple en une œuvre d'art. Apprenez à utiliser la couleur pour ajouter des émotions, de la profondeur et de la dimension à vos créations.
         </p>
 
-        <h4>1.1 Dessins Verticaux</h4>
+        <h4>1.1 Créations Féminines – Style Manga</h4>
         <p className="gallery-description">
-          Les dessins verticaux offrent une perspective allongée qui peut ajouter de la hauteur et de la structure à votre composition. Ils sont souvent utilisés pour représenter des sujets tels que des objets allongés ou des paysages verticaux.
+        Ces illustrations donnent vie à des héroïnes inédites, créées de toutes pièces dans un style manga. Chacune incarne une identité forte, mêlant imagination, force intérieure et singularité visuelle.
         </p>
         <div className="gallery-advanced vertical">
           <img src="./assets/color1.jpg" alt="Techniques de couleurs" onClick={() => openModal('./assets/color1.jpg', 'L\'utilisation de différents pinceaux m\'a permis de composer une scène représentant une jeune fille assise sur une branche d\'arbre, au cœur de la forêt, baignée par des rayons de lumière filtrant à travers le feuillage.')} />
           <img src="./assets/color2.jpg" alt="Techniques de couleurs" onClick={() => openModal('./assets/color2.jpg', 'Dans cette composition, on découvre une jeune fille accroupie sous un arrêt de bus, prenant un moment de quiétude pour apprécier la compagnie d\'un petit chat, dans une ambiance douce et contemplative.')} />
           <img src="./assets/color6.jpg" alt="Techniques de couleurs" onClick={() => openModal('./assets/color6.jpg', 'On y voit une jeune femme, assise dos contre un mur, pieds nus, éclairée par un unique rayon de lumière. Cette mise en scène épurée laisse place à l’imagination : peut-être est-elle captive dans une sorte de boxe austère, sans décoration, plongée dans ses pensées.')} />
+
+
+          {/* <img src="./assets/Poster-hxh_.jpg" alt="Techniques de couleurs" onClick={() => openModal('./assets/color6.jpg', 'Scène inédite inspirée du manga culte Hunter x Hunter, mettant en scène trois personnages emblématiques : Gon, Kirua et Meruem.')} /> */}
+
         </div>
 
-        <h4>1.2 Dessins Horizontaux</h4>
+        <h4>1.2 Personnages Manga Retravaillés</h4>
         <p className="gallery-description">
-          Les dessins horizontaux offrent une perspective large idéale pour les paysages ou les scènes panoramiques.
+        Ces illustrations revisitent des figures emblématiques du manga avec un style original ou modernisé, apportant une nouvelle dimension à leur personnalité.
         </p>
         <div className="gallery-advanced horizontal">
           <img src="./assets/Carnetluffy.jpg" alt="Dessin couleur horizontal" onClick={() => openModal('./assets/Carnetluffy.jpg', 'Illustration de Luffy, personnage emblématique, dans une pose vive, capturant l’esprit du gros mangeur.')} />
@@ -53,9 +57,9 @@ const TechniquesAvancees = () => {
           <img src="./assets/poster9.jpg" alt="Personnage inspiré de Lucario" onClick={() => openModal('./assets/poster9.jpg', 'Création originale inspirée de Lucario, mêlant puissance animale et design futuriste.')} />
         </div>
 
-        <h4>1.3 Dessins Carrés</h4>
+        <h4>1.3 Personnages Manga</h4>
         <p className="gallery-description">
-          Les dessins carrés sont parfaits pour les compositions équilibrées et symétriques.
+        Ces compositions carrées revisitent des personnages emblématiques du manga, plongés dans des atmosphères marquées par la douleur, la solitude ou le combat intérieur. Le fond rouge accentue la tension dramatique et la puissance émotionnelle de chaque scène.
         </p>
         <div className="gallery-advanced square">
           <img src="./assets/poster1.jpg" alt="Sakamoto" onClick={() => openModal('./assets/poster1.jpg', 'Illustration de Sakamoto dans le style manga, soulignant sa précision légendaire.')} />
@@ -68,6 +72,17 @@ const TechniquesAvancees = () => {
           <img src="./assets/poster8.jpg" alt="Onizuka" onClick={() => openModal('./assets/poster8.jpg', 'Onizuka en pleine virée sur sa Kawasaki, entre insolence et liberté.')} />
           {/* <img src="./assets/poster9.jpg" alt="Personnage inspiré de Lucario" onClick={() => openModal('./assets/poster9.jpg', 'Création originale inspirée de Lucario, mêlant puissance animale et design futuriste.')} /> */}
         </div>
+
+
+        <h4>1.4 Créations Originales – Scènes de Mangas Cultes</h4>
+<p className="gallery-description">
+Ces créations originales réinventent des scènes qui n'existent pas dans les œuvres officielles, en mettant en scène des personnages emblématiques de mangas cultes. Chaque illustration est une exploration artistique libre, entre hommage et imagination.
+</p>
+<div className="gallery-advanced vertical">
+  <img src="./assets/Poster-hxh_.jpg" alt="Techniques de couleurs" onClick={() => openModal('./assets/Poster-hxh_.jpg', 'Scène inventée autour du manga culte Hunter x Hunter, réunissant trois personnages emblématiques : Gon, Kirua et Meruem.')} />
+</div>
+
+
       </div>
 
       {/* 2. Le Dessin en Noir et Blanc */}
